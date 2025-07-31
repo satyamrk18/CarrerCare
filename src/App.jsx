@@ -7,6 +7,10 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        {/* <Routes path="/carrer" element={<Carrer />}></Routes>
+        <Routes path="/courses" element={<Courses />}></Routes>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/login" element={<Login />}></Route> */}
       </Routes>
       </BrowserRouter>
     </div>
