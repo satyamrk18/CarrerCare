@@ -5,8 +5,11 @@ const login = () => {
   return (
     <div>
         <Navbar />
-        <div className='login-container'>
-
+        <div className='container'>
+  <div className='login-container'>
+    <div className='side-container'></div>
+  <div className='login-form'></div>
+  </div>
         </div>
     </div>
   )
