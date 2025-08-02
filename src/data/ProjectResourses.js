@@ -167,4 +167,46 @@ const projects = [
     category: "ML"
   },
 
+    // IoT Projects
+  {
+    projectName: "Home Energy Monitor",
+    description: "Build a system that tracks electricity usage data and communicates it via IoT modules to a dashboard.",
+    resources: [
+      "https://github.com/topics/energy-monitor"
+    ],
+    category: "IoT"
+  },
+  {
+    projectName: "Smart Garden Irrigation",
+    description: "Automate garden watering using soil sensors and weather data deeply integrated with IoT control.",
+    resources: [
+      "https://github.com/topics/smart-garden"
+    ],
+    category: "IoT"
+  },
+  {
+    projectName: "IoT-based Smart Arm",
+    description: "Build a smart arm prototype with servo motors and sensors controlled wirelessly via Bluetooth or internet.",
+    resources: [
+      "https://www.simplilearn.com/internet-of-things-iot-projects-article"
+    ],
+    category: "IoT"
+  },
+  {
+    projectName: "Smart Irrigation System",
+    description: "Use IoT and moisture sensors to automate irrigation only when the soil is dry and conditions require it.",
+    resources: [
+      "https://www.simplilearn.com/internet-of-things-iot-projects-article"
+    ],
+    category: "IoT"
+  },
+  {
+    projectName: "IoT Air Monitoring System",
+    description: "Develop an air quality detection device using sensors to publish AQI data to the cloud in real time.",
+    resources: [
+      "https://www.simplilearn.com/internet-of-things-iot-projects-article"
+    ],
+    category: "IoT"
+  },
+
 ]
