@@ -209,4 +209,89 @@ const projects = [
     category: "IoT"
   },
 
-]
+   // Data Science Projects
+  {
+    projectName: "Quote Scraping",
+    description: "Scrape inspirational quotes from websites and store them in a structured dataset for analysis.",
+    resources: [
+      "https://www.geeksforgeeks.org/top-data-science-projects/"
+    ],
+    category: "Data Science"
+  },
+  {
+    projectName: "Zomato Data Analysis Using Python",
+    description: "Analyze Zomato's restaurant dataset to generate insights into cuisines, locations, and cost categories.",
+    resources: [
+      "https://www.geeksforgeeks.org/top-data-science-projects/"
+    ],
+    category: "Data Science"
+  },
+  {
+    projectName: "IPL Data Analysis",
+    description: "Use Pandas and Matplotlib to analyze Indian Premier League data for performance insights and trends.",
+    resources: [
+      "https://www.geeksforgeeks.org/top-data-science-projects/"
+    ],
+    category: "Data Science"
+  },
+  {
+    projectName: "Wine Quality Prediction",
+    description: "Apply a classification model to predict the quality of wine based on physicochemical tests.",
+    resources: [
+      "https://www.geeksforgeeks.org/top-data-science-projects/"
+    ],
+    category: "Data Science"
+  },
+  {
+    projectName: "Real Estate Property Scraping and Visualization",
+    description: "Scrape price listings and visualize price trends and distributions using charts in Python.",
+    resources: [
+      "https://www.geeksforgeeks.org/top-data-science-projects/"
+    ],
+    category: "Data Science"
+  },
+
+  // Java Development Projects
+  {
+    projectName: "Student Performance Tracking System",
+    description: "Create a Java application that records and analyzes student grades, attendance, and performance trends.",
+    resources: [
+      "https://projectgurukul.org/java-project-ideas/"
+    ],
+    category: "Java Development"
+  },
+  {
+    projectName: "Online Medical Shop Management System",
+    description: "Design a back-end inventory and front-end system to manage pharmacy customers and orders using Java.",
+    resources: [
+      "https://projectgurukul.org/java-project-ideas/"
+    ],
+    category: "Java Development"
+  },
+  {
+    projectName: "Library Management System",
+    description: "Build a CRUD-based Java application to manage book issuance, returns, and member registrations.",
+    resources: [
+      "https://www.geeksforgeeks.org/blogs/java-projects/"
+    ],
+    category: "Java Development"
+  },
+  {
+    projectName: "Bank Management System",
+    description: "Develop a console or GUI-based app that simulates banking features including withdrawal and deposits.",
+    resources: [
+      "https://www.geeksforgeeks.org/blogs/java-projects/"
+    ],
+    category: "Java Development"
+  },
+  {
+    projectName: "Billing System",
+    description: "Implement a Java billing and invoicing system that calculates totals, discounts, and generates receipts.",
+    resources: [
+      "https://projectgurukul.org/java-project-ideas/"
+    ],
+    category: "Java Development"
+  }
+];
+
+export default projects;
