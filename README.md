@@ -1,12 +1,49 @@
-# React + Vite
+# CareerCare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerCare is a Career Exploration Website focused on the IT industry. Built with HTML, CSS, JavaScript, and React JS, the platform empowers students and learners to plan their IT careers with ease. It offers placement prediction, tailored course recommendations, and curated project resources to help users achieve their professional goals.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Placement Prediction:** Estimate your chances of placement in various IT roles based on skills, academic record, and other relevant factors.
+- **Course Recommendation:** Get personalized suggestions for online and offline courses to enhance your IT skills and boost employability.
+- **Project Resources:** Access a curated library of projects, guides, and tools to build your portfolio and gain practical experience.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js & npm installed on your machine.
+
+### Installation
+
+```bash
+git clone https://github.com/kalmevarad/CarrerCare.git
+cd CarrerCare
+npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser to see the app.
+
+## Technologies Used
+
+- React JS
+- Vite
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements and new features.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+*CareerCare – Guiding your IT journey, from learning to placement success!*
