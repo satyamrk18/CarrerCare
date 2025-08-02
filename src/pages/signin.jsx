@@ -1,12 +1,12 @@
-import React from "react";
-import Navbar from "./../components/navbar.jsx";
-import {User } from "lucide-react"
-import "./login.css";
+import React from 'react'
+import "./signin.css"
 import Button from "./../components/button.jsx"
 import { Link } from "react-router-dom";
-const login = () => {
+import {User } from "lucide-react"
+import Navbar from "./../components/navbar.jsx";
+const signin = () => {
   return (
-    <div>
+     <div>
       <Navbar />
       <div className="container">
         <div className="login-container">
@@ -18,11 +18,11 @@ const login = () => {
               cumque saepe. Quia qui veniam nostrum dignissimos tempore
               molestias, earum cumque ratione.
             </h2>
-           <Link to="/signin"><Button name="Sign In"/></Link>
+           <Link to="/login"><Button name="Log In"/></Link>
           </div>
           <div className="login-form">
           <form>
-              <h2 className="login-heading">Log In</h2>
+              <h2 className="login-heading">Sign In</h2>
           <div className="inputs"> 
             <User />
              <input 
@@ -37,13 +37,20 @@ const login = () => {
             placeholder="enter a password"
             name="password"
             /></div>
+            <div className="inputs"> 
+            <User />
+             <input 
+            type="text"
+            placeholder="Conform Passeowd"
+            name="password"
+            /></div>
           </form>
-           <Button name="Log In"/>
+           <Button name="Sign In"/>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default login;
+export default signin

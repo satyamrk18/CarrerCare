@@ -41,7 +41,10 @@
 h1 {
   font-size: 50px;
 }
-
+.login-heading
+{
+  font-size:35px;
+}
 .login-form {
   height: 75vh;
   width: 35%;
