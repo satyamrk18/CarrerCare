@@ -41,5 +41,48 @@ const projects = [
     category: "Web Development"
   },
 
-  
+   // Android Development Projects
+  {
+    projectName: "Music Player App",
+    description: "Develop an Android music player to play local media files with features like playlists, shuffle, and repeat.",
+    resources: [
+      "https://www.zegocloud.com/blog/android-projects"
+    ],
+    category: "Android Development"
+  },
+  {
+    projectName: "Quiz App",
+    description: "Create a quiz app that presents multiple-choice questions and tracks the user's score at the end.",
+    resources: [
+      "https://www.geeksforgeeks.org/android/android-project-ideas/"
+    ],
+    category: "Android Development"
+  },
+  {
+    projectName: "Weather App",
+    description: "Build an Android app that fetches live weather data for a given location using a weather API.",
+    resources: [
+      "https://www.geeksforgeeks.org/android/android-project-ideas/"
+    ],
+    category: "Android Development"
+  },
+  {
+    projectName: "E-Banking App",
+    description: "Design a simulated e-banking app interface with login, balance check, and transaction history features.",
+    resources: [
+      "https://www.zegocloud.com/blog/android-projects"
+    ],
+    category: "Android Development"
+  },
+  {
+    projectName: "Tic Tac Toe Game App",
+    description: "Develop the classic Tic Tac Toe game using a simple Android interface with alert-based game outcomes.",
+    resources: [
+      "https://www.zegocloud.com/blog/android-projects"
+    ],
+    category: "Android Development"
+  },
+
+  // AI Projects
+
 ]
