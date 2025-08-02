@@ -41,12 +41,7 @@
 h1 {
   font-size: 50px;
 }
-button {
-  width: 100px;
-  margin: 0 auto;
-  height: 50px;
-  border-radius: 50px;
-}
+
 .login-form {
   height: 75vh;
   width: 35%;

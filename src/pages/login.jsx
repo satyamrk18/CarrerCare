@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./../components/navbar.jsx";
 import {User } from "lucide-react"
 import "./login.css";
+import Button from "./../components/button.jsx"
 const login = () => {
   return (
     <div>
@@ -16,7 +17,7 @@ const login = () => {
               cumque saepe. Quia qui veniam nostrum dignissimos tempore
               molestias, earum cumque ratione.
             </h2>
-            <button>Sign In</button>
+            <Button name="Sign In"/>
           </div>
           <div className="login-form">
           <form>
@@ -36,7 +37,7 @@ const login = () => {
             name="password"
             /></div>
           </form>
-            <button>Log In</button>
+           <Button name="Log In"/>
           </div>
         </div>
       </div>
