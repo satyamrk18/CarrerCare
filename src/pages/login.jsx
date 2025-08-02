@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./../components/navbar.jsx";
+import {User } from "lucide-react"
 import "./login.css";
 const login = () => {
   return (
@@ -20,16 +21,20 @@ const login = () => {
           <div className="login-form">
           <form>
               <h2>Log In</h2>
-            <input 
+          <div className="inputs"> 
+            <User />
+             <input 
             type="text"
             placeholder="enter a username"
             name="username"
-            />
+            /></div>
+            <div className="inputs"> 
+            <User />
              <input 
             type="password"
-            placeholder="enter a username"
-            name="username"
-            />
+            placeholder="enter a password"
+            name="password"
+            /></div>
           </form>
             <button>Log In</button>
           </div>
