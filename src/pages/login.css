@@ -31,35 +31,49 @@
     rgba(205, 6, 223, 0.89),
     rgba(205, 6, 223, 0.507)
   );
-  display:flex;
-  align-content:center;
-  justify-content:center;
-  flex-direction:column;
-  text-align:center;
-  color:white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
 }
-h1{
-    font-size:50px;
+h1 {
+  font-size: 50px;
 }
-button{
-    width:100px;
-    margin:0 auto;
-    height:50px;
-    border-radius:50px;
+.login-heading
+{
+  font-size:35px;
 }
 .login-form {
   height: 75vh;
   width: 35%;
   background-color: white;
-  display:flex;
-  align-content:center;
-  justify-content:center;
-  flex-direction:column;
-  text-align:center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
-.login-form input 
+.inputs {
+  width:80%;
+  height: auto;
+  margin: 25px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:25px;
+}
+input {
+  width:80%;
+  margin: 20px auto;
+  height: 40px;
+  border: none;
+  border-bottom:1px solid black;
+}
+input:focus
 {
-    width:70%;
-    margin:25px auto;
+  border-bottom:1px solid black;
+  outline:none;
 }
-
