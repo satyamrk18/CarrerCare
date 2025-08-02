@@ -125,4 +125,46 @@ const projects = [
     category: "AI"
   },
 
+    // ML Projects
+  {
+    projectName: "Speech Emotion Recognition",
+    description: "Train a model to classify emotional states like happy, sad, angry, etc., from audio speech data.",
+    resources: [
+      "https://data-flair.training/blogs/machine-learning-project-ideas/"
+    ],
+    category: "ML"
+  },
+  {
+    projectName: "Handwritten Character Recognition",
+    description: "Use neural networks like CNN to recognize characters or digits from handwritten image datasets.",
+    resources: [
+      "https://data-flair.training/blogs/machine-learning-project-ideas/"
+    ],
+    category: "ML"
+  },
+  {
+    projectName: "Credit Card Fraud Detection",
+    description: "Build a classification model that detects fraudulent transactions using transaction metadata.",
+    resources: [
+      "https://data-flair.training/blogs/machine-learning-project-ideas/"
+    ],
+    category: "ML"
+  },
+  {
+    projectName: "Online Grocery Recommendation",
+    description: "Create a content-based filtering model to suggest grocery items based on user behavior and purchases.",
+    resources: [
+      "https://data-flair.training/blogs/machine-learning-project-ideas/"
+    ],
+    category: "ML"
+  },
+  {
+    projectName: "Real Estate Price Prediction",
+    description: "Predict property prices using regression models trained on dataset features like location, area, and amenities.",
+    resources: [
+      "https://www.geeksforgeeks.org/machine-learning-projects/"
+    ],
+    category: "ML"
+  },
+
 ]
