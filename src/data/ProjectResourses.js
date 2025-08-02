@@ -83,6 +83,46 @@ const projects = [
     category: "Android Development"
   },
 
-  // AI Projects
+    // AI Projects
+  {
+    projectName: "Smart Pool Project",
+    description: "Create an AI-driven system to balance pool water levels by monitoring and adjusting using sensors and logic.",
+    resources: [
+      "https://thestempedia.com/blog/7-best-ai-project-ideas-for-beginners/"
+    ],
+    category: "AI"
+  },
+  {
+    projectName: "Life-Saving Robot",
+    description: "Design a robot concept equipped with AI to assist in disaster rescue scenarios, identifying patterns for safety.",
+    resources: [
+      "https://thestempedia.com/blog/7-best-ai-project-ideas-for-beginners/"
+    ],
+    category: "AI"
+  },
+  {
+    projectName: "AI-Powered Personal Health Assistant",
+    description: "Build an assistant that provides daily health recommendations using AI based on user preferences and habits.",
+    resources: [
+      "https://blog.devops.dev/ai-projects-to-build-this-weekend-2025-edition-cbf503b11175"
+    ],
+    category: "AI"
+  },
+  {
+    projectName: "AI-Based Medical Diagnosis System",
+    description: "Use pattern recognition and classifiers to predict potential diseases based on symptom input using AI models.",
+    resources: [
+      "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/ai-project-ideas"
+    ],
+    category: "AI"
+  },
+  {
+    projectName: "Autonomous Driving System",
+    description: "Design a simulation showcasing AI decision-making in navigating roads, obstacles, and signals autonomously.",
+    resources: [
+      "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/ai-project-ideas"
+    ],
+    category: "AI"
+  },
 
 ]
