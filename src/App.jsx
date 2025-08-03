@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx"
 import Login from "./pages/login.jsx"
 import Signin from "./pages/signin.jsx"
+import About from "./pages/About-us.jsx"
+// import Contact from "./pages/Contact.jsx"
 function App() {
   return (
     <div>
@@ -11,7 +13,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         {/* <Routes path="/carrer" element={<Carrer />}></Routes>
         <Routes path="/courses" element={<Courses />}></Routes>
-        <Route path="/about" element={<About />}></Route>*/}
+        <Route path="/contact" element={<Contact />}></Route>*/}
+        <Route path="/about" element={<About />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/login" element={<Login />}></Route> 
       </Routes>
