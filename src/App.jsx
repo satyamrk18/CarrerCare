@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx"
 import Login from "./pages/login.jsx"
 import Signin from "./pages/signin.jsx"
 import About from "./pages/About-us.jsx"
+import User from "./pages/user.jsx"
 // import Contact from "./pages/Contact.jsx"
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>*/}
         <Route path="/about" element={<About />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
-        <Route path="/login" element={<Login />}></Route> 
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/user" element={<User />}></Route>
       </Routes>
       </BrowserRouter>
     </div>
