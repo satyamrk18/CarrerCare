@@ -76,6 +76,7 @@ const login = () => {
           </div>
         </div>
       </div>
+         <Link to="/contact">Contact</Link> 
       <Toaster />
     </div>
   );
