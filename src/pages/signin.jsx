@@ -98,7 +98,7 @@ const signin = () => {
           </div>
         </div>
       </div>
-      {/* <Link to="/contact">Contact</Link> */}
+     {/* <Link to="/contact">Contact</Link> */}
       <Toaster />
     </div>
   );

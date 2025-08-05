@@ -5,7 +5,7 @@ import Login from "./pages/login.jsx"
 import Signin from "./pages/signin.jsx"
 import About from "./pages/About-us.jsx"
 import User from "./pages/user.jsx"
-// import Contact from "./pages/Contact.jsx"
+ import Contact from "./pages/Contact.jsx"
 function App() {
   return (
     <div>
@@ -13,12 +13,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         {/* <Routes path="/carrer" element={<Carrer />}></Routes>
-        <Routes path="/courses" element={<Courses />}></Routes>
-        <Route path="/contact" element={<Contact />}></Route>*/}
+        <Routes path="/courses" element={<Courses />}></Routes>*/}
+        <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/user" element={<User />}></Route>
+        <Route path="*"element={<h1>error 404 page not found</h1>}></Route>
       </Routes>
       </BrowserRouter>
     </div>
