@@ -11,13 +11,15 @@ const resume = () => {
         {/* personal detail from resume */}
         <div className="personal-detail">
           <div className="contact-detail">
-            <h2>Personal Details</h2>
-            <h4>satyamrk18@gmail.com</h4>
-            <h4>+91 7588035979</h4>
-            <h4>V.n.p. appt, panchavati nashik</h4>
+            <p className="personal-detail-heading">Personal Details</p>
+            <ul>
+                <li>satyamrk18@gmail.com</li>
+                <li>+91 7588035979</li>
+                <li>V.n.p. appt, panchavati nashik</li>
+            </ul>
           </div>
           <div className="skill">
-            <h2>Skill</h2>
+            <p className="personal-detail-heading">Skill</p>
             <ul>
                 <li>java</li>
                 <li>java</li>
@@ -29,7 +31,7 @@ const resume = () => {
           </div>
           {/* softskill */}
           <div className="soft-skill">
-            <h2>Soft skill</h2>
+            <p className="personal-detail-heading">Soft skill</p>
           <ul>
             <li>communication</li>
             <li>Leadership</li>
