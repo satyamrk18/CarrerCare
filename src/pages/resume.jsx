@@ -3,6 +3,8 @@ import "./resume.css";
 import Navbar from "./../components/navbar.jsx";
 import Heading from "../components/heading.jsx";
 import Projects from "../components/projects.jsx";
+import Certification from "../components/certification.jsx";
+import Education from "./../components/education.jsx";
 const resume = () => {
   return (
     <div className="resume-container">
@@ -41,12 +43,21 @@ const resume = () => {
               <li>Time Management</li>
             </ul>
           </div>
+          <div className="education">
+            <Education
+              education="Bachelors of engineering"
+              college="SVIT"
+              percentage={90}
+            />
+          </div>
         </div>
+
+        {/* main detail */}
         <div className="main-detail">
           <Heading title="Satyam Katkade" />
           {/* summary */}
           <div className="Summary">
-            <Heading stitle="Summary" />
+            <Heading title="Summary" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus iste itaque, ab culpa velit iure sapiente ipsum officia
@@ -85,6 +96,22 @@ const resume = () => {
               textTag=" Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur."
+            />
+          </div>
+
+          {/* certification */}
+          <div className="certification-hobbies">
+            <Certification
+              title="Certification"
+              one="web dev"
+              two="app dev"
+              three="cloud computing"
+            />
+            <Certification
+              title="Hobbies"
+              one="cricket"
+              two="football"
+              three="gamming"
             />
           </div>
         </div>
