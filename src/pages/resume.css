@@ -36,12 +36,20 @@
 .soft-skill li {
   margin: 10px;
 }
+/* main details */
 .main-detail {
   width: 70%;
   height: 100%;
   background-color: pink;
+  display:flex;
+  flex-direction:column;
 }
-
+.Summary, p
+{
+font-size:13px;
+width:95%;
+margin-left:10px;
+}
 @media (max-width: 900px) {
   * {
     text-align: center;
