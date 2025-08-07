@@ -30,9 +30,16 @@ const Contact = () => {
                 </div>
                
                </div>
-               <div></div>
+               <div className="flex space-x-4 text-lg">
+                <a href="#"><span>F</span></a>
+                <a href="#"><span>I</span></a>
+                <a href="#"><span>T</span></a>
+                <a href="#"><span>L</span></a>
+               </div>
             </div> 
-            <div></div>  
+            <div>
+             
+            </div>  
           </div>
        </div>
       </div>
