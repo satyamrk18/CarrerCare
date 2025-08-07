@@ -6,6 +6,7 @@ import Signin from "./pages/signin.jsx"
 import About from "./pages/About-us.jsx"
 import User from "./pages/user.jsx"
  import Contact from "./pages/Contact.jsx"
+ import Resume from "./pages/resume.jsx"
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/user" element={<User />}></Route>
+        <Route path="/resume" element={<Resume />}></Route>
         <Route path="*"element={<h1>error 404 page not found</h1>}></Route>
       </Routes>
       </BrowserRouter>
