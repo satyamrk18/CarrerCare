@@ -21,12 +21,12 @@ const Contact = () => {
                    <span> (+91) 8142 6243 12 </span>
                 </div>  
                 <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">contact.jpg</span> 
-                   <span> (+91) 8142 6243 12 </span>
+                    <span className="text-cyan-300">email.jpg</span> 
+                   <span> CarrerCare@gmail.com </span>
                 </div>
                   <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">contact.jpg</span> 
-                   <span> (+91) 8142 6243 12 </span>
+                    <span className="text-cyan-300">location.jpg</span> 
+                   <span> Lorem ipsum dolor sit. </span>
                 </div>
                
                </div>
