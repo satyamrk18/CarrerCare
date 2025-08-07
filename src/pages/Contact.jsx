@@ -38,7 +38,7 @@ const Contact = () => {
                </div>
             </div> 
             <div>
-             
+              <div className="bg-white rounded-xl shadow-lg p-8"></div>
             </div>  
           </div>
        </div>
