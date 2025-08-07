@@ -5,6 +5,7 @@ import Heading from "../components/heading.jsx";
 import Projects from "../components/projects.jsx";
 import Certification from "../components/certification.jsx";
 import Education from "./../components/education.jsx";
+import SocialMedia from "./../components/socialMedia.jsx"
 const resume = () => {
   return (
     <div className="resume-container">
@@ -45,10 +46,22 @@ const resume = () => {
           </div>
           <div className="education">
             <Education
+              title="Education"
               education="Bachelors of engineering"
               college="SVIT"
               percentage={90}
             />
+            <Education
+              education="HSC"
+              college="VN naik nashik"
+              percentage={90}
+            />
+          </div>
+          {/* social media linkes */}
+          <div className="social-media-links">
+            <SocialMedia title="Linked in" link="http://localhost:5173/resume"/>
+             <SocialMedia title="peerlist" link="http://localhost:5173/resume"/>
+              <SocialMedia title="git hub" link="http://localhost:5173/resume"/>
           </div>
         </div>
 

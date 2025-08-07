@@ -1,14 +1,14 @@
 import "./education.css"
 import Heading from "./heading.jsx"
-const Education = ({education,college,percentage})=>
+const Education = ({title,education,college,percentage})=>
 {
  return(
     <div>
-    <Heading title="Education"/>
+    <Heading title={title}/>
     <ul>
         <li>{education} </li>
         <li>{college}</li>
-        <li>percentage {percentage}</li>
+        <li>percentage : {percentage}%</li>
     </ul>
     </div>
  )
