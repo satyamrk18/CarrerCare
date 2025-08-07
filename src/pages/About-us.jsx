@@ -1,25 +1,27 @@
-import React from 'react'
-import './About-us.css'
-import Navbar from './../components/navbar.jsx'
+import React from 'react';
+import './About-us.css';
+import Navbar from './../components/navbar.jsx';
+import Button from './../components/button.jsx';
+import { Github, Linkedin, ExternalLink} from "lucide-react";
 
 const AboutUs = () => {
   return (
     <div>
       <Navbar />
-      <div className="conatiner">
-        <div className="login-container">
-           <div className="side-container"> 
+      <div className="about-page">
+    
+           <div className="summary-section">
              <h1>About CareerCare</h1>
-             <h2>
+             <p>
               CareerCare is a career exploration platform that helps students and learners
               discover different career options, required skills, courses, job roles, and
               growth paths. It aims to make career planning easy, informative, and
               engaging.
-            </h2>
+            </p>
              <Button name="Explore Careers" />
            </div>
-             <div className="login-form">
-               <h2 className="login-heading">Our Team</h2>
+             <div className="team-section">
+               <h2 className="team-heading">Our Team</h2>
                 <div className="team-cards">
                    <div className="member-card">
                        <h3>Tanishka Shivarkar</h3>
@@ -31,15 +33,17 @@ const AboutUs = () => {
                            <Linkedin size={20} />
                            </a>
                             <a href="https://peerlist.io/tanishka_3112" target="_blank">
-                           <Peerlist size={20} />
+                           <ExternalLink size={20} />
                             </a>
                          </div>
                    </div>
+
+
                 </div>
              </div>
         </div>
       </div>
-    </div>
+    
     
   );
 };
