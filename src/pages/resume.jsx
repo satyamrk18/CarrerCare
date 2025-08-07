@@ -1,6 +1,7 @@
 import react from "react";
 import "./resume.css";
 import Navbar from "./../components/navbar.jsx";
+import Heading from "../components/heading.jsx";
 const resume = () => {
   return (
     <div className="resume-container">
@@ -11,7 +12,7 @@ const resume = () => {
         {/* personal detail from resume */}
         <div className="personal-detail">
           <div className="contact-detail">
-            <p className="personal-detail-heading">Personal Details</p>
+            <Heading title="Personal Detail"/>
             <ul>
                 <li>satyamrk18@gmail.com</li>
                 <li>+91 7588035979</li>
@@ -19,7 +20,7 @@ const resume = () => {
             </ul>
           </div>
           <div className="skill">
-            <p className="personal-detail-heading">Skill</p>
+            <Heading title="Skill"/>
             <ul>
                 <li>java</li>
                 <li>java</li>
@@ -31,7 +32,7 @@ const resume = () => {
           </div>
           {/* softskill */}
           <div className="soft-skill">
-            <p className="personal-detail-heading">Soft skill</p>
+            <Heading title="Soft Skill"/>
           <ul>
             <li>communication</li>
             <li>Leadership</li>

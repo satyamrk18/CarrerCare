@@ -41,10 +41,7 @@
   height: 100%;
   background-color: pink;
 }
-.personal-detail-heading {
-  font-size: 25px;
-  font-weight: 600;
-}
+
 @media (max-width: 900px) {
   * {
     text-align: center;
@@ -76,9 +73,6 @@
     margin: 10px;
     width: 100%;
     display: flex;
-  }
-  .personal-detail-heading {
-    font-size: 20px;
   }
   .personal-detail
   {
