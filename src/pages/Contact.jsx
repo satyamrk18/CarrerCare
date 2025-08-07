@@ -10,7 +10,7 @@ const Contact = () => {
           <div className=" flex flex-col space-y-6 bg-cyan-700 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
             <div className="flex flex-col justify-between"> 
                <div>
-                 <h1 >contact us </h1>
+                 <h1 className=" font-bold text-4xl tracking-wide">contact us </h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minus.</p>
                </div>
                <div></div>
