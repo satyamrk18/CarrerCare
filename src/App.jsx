@@ -7,14 +7,15 @@ import About from "./pages/About-us.jsx"
 import User from "./pages/user.jsx"
  import Contact from "./pages/Contact.jsx"
  import Resume from "./pages/resume.jsx"
+ import Courses from "./pages/Courses.jsx"
 function App() {
   return (
     <div>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {/* <Routes path="/carrer" element={<Carrer />}></Routes>
-        <Routes path="/courses" element={<Courses />}></Routes>*/}
+        {/* <Routes path="/carrer" element={<Carrer />}></Routes>*/}
+        <Routes path="/courses" element={<Courses />}></Routes>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
