@@ -25,7 +25,12 @@ const Contact = () => {
                 </div>  
                 <div className="inline-flex space-x-2 items-center">
                     <span className="text-cyan-300"> <Mail /> </span> 
+                    <a
+                   href="mailto:CarrerCare@gmail.com"
+                   className="hover:underline text-white">
+                   
                    <span> CarrerCare@gmail.com </span>
+                    </a>
                 </div>
                   <div className="inline-flex space-x-2 items-center">
                     <span className="text-cyan-300"> <MapPin /></span> 
