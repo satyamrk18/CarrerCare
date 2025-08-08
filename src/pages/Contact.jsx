@@ -34,7 +34,13 @@ const Contact = () => {
                 </div>
                   <div className="inline-flex space-x-2 items-center">
                     <span className="text-cyan-300"> <MapPin /></span> 
-                   <span> Lorem ipsum dolor sit. </span>
+                   <a
+                   href="https://www.google.com/maps/place/Mumbai,+Maharashtra,+India"
+                   target="_blank"
+                    rel="noopener noreferrer"
+                   className="hover:underline text-white">
+                   Mumbai, Maharashtra, India
+                   </a>
                 </div>
                
                </div>
