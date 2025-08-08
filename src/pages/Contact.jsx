@@ -58,8 +58,9 @@ const Contact = () => {
                 <a href="https://www.twitch.tv/"><span><Twitch /></span></a>
                </div>
             </div> 
-            <div>
-              <div className="bg-white rounded-xl shadow-lg p-8  text-gray-600 md:w-90" >
+            <div className="relative ">
+              <div className=" absolute z-0 w-40 h-40 bg-teal-400 rounded-full"></div>
+              <div className="relative z-10 bg-white rounded-xl shadow-lg p-8  text-gray-600 md:w-90" >
                <form action="flex flex-col space-y-6">
 
                 <div>
@@ -74,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <input type="text" placeholder="Email adress" className="ring-1 ring-gray-300 w-full
-                   rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
+                   rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 border-b-gray-300 " />
                 </div>
                 <div>
                   <label htmlFor="" className="text-sm">Message</label>
