@@ -45,4 +45,11 @@ return (
             </div>
           ))}
         </div>
+ <div className="text-center mt-8">
+          <button className="bg-blue-900 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 transition">Show all Data Science courses</button>
+        </div>
+      </div>
+    </section>
+  );
+};
 
