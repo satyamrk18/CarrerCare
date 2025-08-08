@@ -60,19 +60,19 @@ const Contact = () => {
             </div> 
             <div className="relative ">
               <div className=" absolute z-0 w-40 h-40 bg-teal-400 rounded-full -right-28 -top-28"></div>
-               <div className=" absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-28 -bottom-17"></div>
+               <div className=" absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-28 -bottom-16"></div>
               <div className="relative z-10 bg-white rounded-xl shadow-lg p-8  text-gray-600 md:w-90" >
                <form action="flex flex-col space-y-6n">
 
                 <div>
-                  <label htmlFor="" className="text-sm">your name</label>
+                  <label htmlFor="" className="text-sm">Your Name</label>
                 </div>
                 <div>
                   <input type="text" placeholder="your name" className="ring-1 ring-gray-300 w-full
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300  " />
                 </div>
                  <div>
-                  <label htmlFor="" className="text-sm">Email address</label>
+                  <label htmlFor="" className="text-sm">Email Address</label>
                 </div>
                 <div>
                   <input type="text" placeholder="Email adress" className="ring-1 ring-gray-300 w-full
