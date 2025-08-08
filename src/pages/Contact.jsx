@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { Phone , Mail , MapPin, Instagram , Linkedin , Twitter} from "lucide-react"
+import { Phone , Mail , MapPin, Instagram , Linkedin , Twitter, Twitch} from "lucide-react"
 
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
                 <a href="#"><span><Linkedin /></span></a>
                 <a href="#"><span><Instagram /></span></a>
                 <a href="#"><span><Twitter /></span></a>
-                <a href="#"><span>L</span></a>
+                <a href="#"><span><Twitch /></span></a>
                </div>
             </div> 
             <div>
