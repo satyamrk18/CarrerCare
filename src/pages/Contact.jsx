@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <div className="bg-gray-100">
        <div className=" flex justify-center items-center w-full min-h-screen"> 
-          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
+          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
             <div className="flex flex-col space-y-8 justify-between"> 
                <div>
                  <h1 className=" font-bold text-4xl tracking-wide">contact us </h1>
