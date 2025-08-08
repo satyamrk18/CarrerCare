@@ -71,4 +71,14 @@ const CaseStudySection = () => {
       image: 'https://cdn-icons-png.flaticon.com/512/4714/4714727.png'
     }
   ];
+const App = () => (
+  <div className="font-sans">
+    <HeroSection />
+    <SkillsSection />
+    <CoursesSection />
+    <CaseStudySection />
+  </div>
+);
+
+export default App;
 
