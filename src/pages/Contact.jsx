@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { Phone } from "lucide-react"
+import { Phone , Mail ,  } from "lucide-react"
 
 
 const Contact = () => {
@@ -22,7 +22,7 @@ const Contact = () => {
                    <span> (+91) 8142 6243 12 </span>
                 </div>  
                 <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">email.jpg</span> 
+                    <span className="text-cyan-300"> <Mail /> </span> 
                    <span> CarrerCare@gmail.com </span>
                 </div>
                   <div className="inline-flex space-x-2 items-center">
