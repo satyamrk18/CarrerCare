@@ -25,3 +25,12 @@ const SkillsSection = () => (
   </section>
 );
 
+const CoursesSection = () => {
+  const courses = [
+    { title: 'Prompt Engineering', image: 'https://cdn-icons-png.flaticon.com/512/1010/1010069.png' },
+    { title: 'ChatGPT for Beginners', image: 'https://cdn-icons-png.flaticon.com/512/4305/4305564.png' },
+    { title: 'ChatGPT for Developers', image: 'https://cdn-icons-png.flaticon.com/512/4429/4429393.png' },
+    { title: 'Data Science with ChatGPT', image: 'https://cdn-icons-png.flaticon.com/512/4714/4714627.png' }
+  ];
+
+
