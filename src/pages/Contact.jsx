@@ -12,7 +12,9 @@ const Contact = () => {
             <div className="flex flex-col space-y-8 justify-between"> 
                <div>
                  <h1 className=" font-bold text-4xl tracking-wide">contact us </h1>
-                  <p className="pt-2 text-cyan-100 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minus.
+                  <p className="pt-3 text-cyan-400 text-sm">Got a question or need guidance?
+
+                  <p className="text-sm text-cyan-100">The CareerCare team is just a message away. Let’s connect and grow your future together!</p>
                     
                   </p>
                </div>
