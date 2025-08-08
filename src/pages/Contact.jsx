@@ -45,7 +45,7 @@ const Contact = () => {
                
                </div>
                <div className="flex space-x-4 text-lg">
-                <a href="#"><span><Linkedin /></span></a>
+                <a href="https://www.linkedin.com"><span><Linkedin /></span></a>
                 <a href="#"><span><Instagram /></span></a>
                 <a href="#"><span><Twitter /></span></a>
                 <a href="#"><span><Youtube size={28} /></span></a>
