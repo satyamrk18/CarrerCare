@@ -19,6 +19,7 @@ const {name} = user;
         <Navbar />
       <h1>hi, {user.name}</h1>
       <Link to="/contact">Contact</Link> 
+      <Link to="/resume">Resume</Link>
     </div>
   )
 }

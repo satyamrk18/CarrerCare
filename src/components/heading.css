@@ -1,0 +1,10 @@
+.personal-detail-heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .personal-detail-heading {
+    font-size: 20px;
+  }
+}
