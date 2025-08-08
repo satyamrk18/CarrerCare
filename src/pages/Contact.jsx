@@ -1,22 +1,101 @@
-import React from "react";
-import "./Contact.css";     
+import "./Contact.css";
+import { Phone , Mail , MapPin, Instagram , Linkedin , Twitter, Twitch , Youtube} from "lucide-react"
 
 
-const Contact =()=>{
-return(
+const Contact = () => {
+
+ return (
     <>
-    <h1>Contact Page </h1>
-    <h2>Get in Touch</h2>
-    <form>
-        <label>Name:</label>
-        <input type="text" name="name" required />
-        <label>Email:</label>
-        <input type="email" name="email" required />
-        <label>Message:</label>
-        <textarea name="message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
+      <div className="bg-gray-100">
+       <div className=" flex justify-center items-center w-full min-h-screen"> 
+          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
+            <div className="flex flex-col space-y-8 justify-between"> 
+               <div>
+                 <h1 className=" font-bold text-4xl tracking-wide">contact us </h1>
+                  <p className="pt-3 text-cyan-400 text-sm">Got a question or need guidance?
+
+                  <p className="text-sm text-cyan-100">The CareerCare team is just a message away. Let’s connect and grow your future together!</p>
+                    
+                  </p>
+               </div>
+               <div className="flex flex-col space-y-4">
+                <div className="inline-flex space-x-2 items-center">
+                    <span className="text-cyan-300"> <Phone /> </span>
+                     <a
+                    href="tel:+919123456789"
+                    className="hover:underline text-white"
+                     >
+                    +91-9123456789
+                    </a> 
+                  
+                </div>  
+                <div className="inline-flex space-x-2 items-center">
+                    <span className="text-cyan-300"> <Mail /> </span> 
+                    <a
+                   href="mailto:CarrerCare@gmail.com"
+                   className="hover:underline text-white">
+                   
+                   <span> CarrerCare@gmail.com </span>
+                    </a>
+                </div>
+                  <div className="inline-flex space-x-2 items-center">
+                    <span className="text-cyan-300"> <MapPin /></span> 
+                   <a
+                   href="https://www.google.com/maps/place/Mumbai,+Maharashtra,+India"
+                   target="_blank"
+                    rel="noopener noreferrer"
+                   className="hover:underline text-white">
+                   Mumbai, Maharashtra, India
+                   </a>
+                </div>
+               
+               </div>
+               <div className="flex space-x-4 text-lg">
+                <a href="https://www.linkedin.com"><span><Linkedin /></span></a>
+                <a href="https://www.instagram.com/"><span><Instagram /></span></a>
+                <a href="https://x.com/"><span><Twitter /></span></a>
+                <a href="https://www.youtube.com/"><span><Youtube size={28} /></span></a>
+                <a href="https://www.twitch.tv/"><span><Twitch /></span></a>
+               </div>
+            </div> 
+            <div>
+              <div className="bg-white rounded-xl shadow-lg p-8  text-gray-600 md:w-90" >
+               <form action="flex flex-col space-y-6">
+
+                <div>
+                  <label htmlFor="" className="text-sm">your name</label>
+                </div>
+                <div>
+                  <input type="text" placeholder="your name" className="ring-1 ring-gray-300 w-full
+                   rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300  " />
+                </div>
+                 <div>
+                  <label htmlFor="" className="text-sm">Email address</label>
+                </div>
+                <div>
+                  <input type="text" placeholder="Email adress" className="ring-1 ring-gray-300 w-full
+                   rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Message</label>
+                </div>
+                <div>
+                  <textarea placeholder="Message" rows={4} className="ring-1 ring-gray-300 w-full
+                   rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
+                  
+                </div>
+                <button className="inline-block bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm self-end">send message</button>
+               </form>
+              </div>
+            </div>  
+          </div>
+       </div>
+      </div>
+      
+     
+
     </>
-)
-}
+  )
+};
+
 export default Contact;
