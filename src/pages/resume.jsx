@@ -6,6 +6,7 @@ import Projects from "../components/projects.jsx";
 import Certification from "../components/certification.jsx";
 import Education from "./../components/education.jsx";
 import SocialMedia from "./../components/socialMedia.jsx";
+import ProfilePic from "../components/profilePic.jsx"
 const resume = () => {
   return (
     <div>
@@ -17,6 +18,8 @@ const resume = () => {
       <div className="actual-resume">
         {/* personal detail from resume */}
         <div className="personal-detail">
+          {/* profile picture */}
+          <ProfilePic profilepic=""/>
           <div className="contact-detail">
             <Heading title="Personal Detail" />
             <ul>
@@ -47,8 +50,8 @@ const resume = () => {
             </ul>
           </div>
           <div className="education">
+            <Heading title="Education"/>
             <Education
-              title="Education"
               education="Bachelors of engineering"
               college="SVIT"
               percentage={90}

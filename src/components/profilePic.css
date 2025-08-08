@@ -1,0 +1,7 @@
+.default-Profile-Pic img
+{
+  border-radius:50%;
+  width:150PX;
+  height:150PX;
+  border:1px solid gray;
+}

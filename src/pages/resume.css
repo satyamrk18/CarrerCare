@@ -11,13 +11,13 @@
   height: 100vh;
 }
 .actual-resume {
-  width:49%;
+  width: 49%;
   height: auto;
   display: flex;
   flex-direction: row;
-  border:1px solid black;
-  padding:10px;
-  border-radius:10px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
 }
 .personal-detail {
   width: 30%;
@@ -32,9 +32,8 @@
   list-style-type: disc;
   padding-left: 20px;
 }
-.contact-detail li 
-{
-  margin:5px;
+.contact-detail li {
+  margin: 5px;
 }
 .skill ul {
   display: flex;

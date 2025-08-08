@@ -1,10 +1,8 @@
 import "./education.css"
-import Heading from "./heading.jsx"
-const Education = ({title,education,college,percentage})=>
+const Education = ({education,college,percentage})=>
 {
  return(
     <div className="education-comp">
-    <Heading title={title}/>
     <ul>
         <li>{education} </li>
         <li>{college}</li>
