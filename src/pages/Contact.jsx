@@ -4,6 +4,29 @@ import { Phone , Mail , MapPin, Instagram , Linkedin , Twitter, Twitch , Youtube
 
 const Contact = () => {
 
+   const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "d48b84e3-4c45-4619-92e9-b60fb66e5ef3");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+    }
+  };
+
  return (
     <>
       <div className="bg-gray-100">
@@ -62,27 +85,27 @@ const Contact = () => {
               <div className=" absolute z-0 w-40 h-40 bg-teal-400 rounded-full -right-28 -top-28"></div>
                <div className=" absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-28 -bottom-16"></div>
               <div className="relative z-10 bg-white rounded-xl shadow-lg p-8  text-gray-600 md:w-90" >
-               <form action="flex flex-col space-y-6n">
+               <form onSubmit={onSubmit} action="flex flex-col space-y-6n">
 
                 <div>
                   <label htmlFor="" className="text-sm">Your Name</label>
                 </div>
                 <div>
-                  <input type="text" placeholder="your name" className="ring-1 ring-gray-300 w-full
+                  <input type="text" placeholder="your name" name="name" required className=" field  ring-1 ring-gray-300 w-full
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300  " />
                 </div>
                  <div>
                   <label htmlFor="" className="text-sm">Email Address</label>
                 </div>
                 <div>
-                  <input type="text" placeholder="Email adress" className="ring-1 ring-gray-300 w-full
+                  <input type="email" placeholder="Email adress" name="email" required className=" field ring-1 ring-gray-300 w-full
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 border-b-gray-300 " />
                 </div>
                 <div>
                   <label htmlFor="" className="text-sm">Message</label>
                 </div>
                 <div>
-                  <textarea placeholder="Message" rows={4} className="ring-1 ring-gray-300 w-full
+                  <textarea placeholder="Message" name="message" required rows={4} className="field mess ring-1 ring-gray-300 w-full
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
                   
                 </div>
