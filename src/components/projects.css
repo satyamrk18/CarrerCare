@@ -1,6 +1,7 @@
-h4{
-    margin-left:10px;
+h4 {
+  margin-left: 10px;
 }
-li{
-    font-size:13px;
+li {
+  font-size: 13px;
+  list-style-type: disc;
 }

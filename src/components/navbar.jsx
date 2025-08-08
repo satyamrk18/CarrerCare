@@ -13,7 +13,7 @@ const navbar = () => {
    <div className='navbar-content'>
       <Link to="/" className={location.pathname === "/"? "active": "navbar-item"}>Home</Link>
      <Link to="/carrer" className={location.pathname === "/carre"? "active": "navbar-item"}>Carrer</Link>
-     <Link to=""className={location.pathname == "/courses"? "active": "navbar-item"}>courses</Link>
+     <Link to="/courses" className={location.pathname === "/courses"? "active": "navbar-item"}>courses</Link>
      <Link to="/about"className={location.pathname === "/about"? "active": "navbar-item"}>about</Link>
      <Link to={data?"/user":"/login"} className={location.pathname === "/login"? "active": "navbar-item"}>{data?data.name:"Login"}</Link>
    </div>
