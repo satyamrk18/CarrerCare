@@ -7,6 +7,7 @@ import About from "./pages/About-us.jsx"
 import User from "./pages/user.jsx"
  import Contact from "./pages/Contact.jsx"
  import Resume from "./pages/resume.jsx"
+ import Courses from "./pages/Courses.jsx"
 function App() {
   return (
     <div>
