@@ -23,7 +23,7 @@ const resume = () => {
               <li>V.n.p. appt, panchavati nashik</li>
             </ul>
           </div>
-          <div className="skill">
+          <div className="rskill">
             <Heading title="Skill" />
             <ul>
               <li>java</li>
@@ -59,6 +59,7 @@ const resume = () => {
           </div>
           {/* social media linkes */}
           <div className="social-media-links">
+            <Heading stitle="social handles"/>
             <SocialMedia title="Linked in" link="http://localhost:5173/resume"/>
              <SocialMedia title="peerlist" link="http://localhost:5173/resume"/>
               <SocialMedia title="git hub" link="http://localhost:5173/resume"/>
@@ -83,7 +84,7 @@ const resume = () => {
           </div>
           {/* projects */}
           <div className="projects">
-            <Heading title="projects" />
+            <Heading title="projects-1" />
             <Projects
               projectName=" Weathe Detection system"
               aim=" Temporibus iste itaque, ab culpa velit iure
@@ -97,7 +98,7 @@ const resume = () => {
               sequi dolores quos minima natus aspernatur."
             />
             {/* project-2 */}
-            <Heading title="projects" />
+            <Heading title="projects-2" />
             <Projects
               projectName=" Weathe Detection system"
               aim=" Temporibus iste itaque, ab culpa velit iure

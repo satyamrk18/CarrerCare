@@ -3,7 +3,7 @@ import Heading from "./heading.jsx"
 const Education = ({title,education,college,percentage})=>
 {
  return(
-    <div>
+    <div className="education-comp">
     <Heading title={title}/>
     <ul>
         <li>{education} </li>
