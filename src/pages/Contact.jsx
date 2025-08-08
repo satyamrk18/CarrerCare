@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { Phone , Mail ,  } from "lucide-react"
+import { Phone , Mail , MapPin  } from "lucide-react"
 
 
 const Contact = () => {
@@ -26,7 +26,7 @@ const Contact = () => {
                    <span> CarrerCare@gmail.com </span>
                 </div>
                   <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">location.jpg</span> 
+                    <span className="text-cyan-300"> <MapPin /></span> 
                    <span> Lorem ipsum dolor sit. </span>
                 </div>
                
