@@ -53,3 +53,22 @@ return (
   );
 };
 
+const CaseStudySection = () => {
+  const cards = [
+    {
+      heading: '2000+ Employees Upskilled',
+      description: 'A leading IT company used our platform to train their employees in AI and Data Science.',
+      image: 'https://cdn-icons-png.flaticon.com/512/4285/4285733.png'
+    },
+    {
+      heading: 'Increased Productivity',
+      description: 'Training with ChatGPT tools led to a 30% boost in team productivity.',
+      image: 'https://cdn-icons-png.flaticon.com/512/944/944722.png'
+    },
+    {
+      heading: 'Better Employee Retention',
+      description: 'Upskilling opportunities reduced attrition rates by 20%.',
+      image: 'https://cdn-icons-png.flaticon.com/512/4714/4714727.png'
+    }
+  ];
+
