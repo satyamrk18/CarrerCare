@@ -1,4 +1,5 @@
 import "./Contact.css";
+import { Phone , Mail , MapPin, Instagram , Linkedin , Twitter, Twitch , Youtube} from "lucide-react"
 
 
 const Contact = () => {
@@ -11,30 +12,50 @@ const Contact = () => {
             <div className="flex flex-col space-y-8 justify-between"> 
                <div>
                  <h1 className=" font-bold text-4xl tracking-wide">contact us </h1>
-                  <p className="pt-2 text-cyan-100 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minus.
+                  <p className="pt-3 text-cyan-400 text-sm">Got a question or need guidance?
+
+                  <p className="text-sm text-cyan-100">The CareerCare team is just a message away. Let’s connect and grow your future together!</p>
                     
                   </p>
                </div>
                <div className="flex flex-col space-y-4">
                 <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">contact.jpg</span> 
-                   <span> (+91) 8142 6243 12 </span>
+                    <span className="text-cyan-300"> <Phone /> </span>
+                     <a
+                    href="tel:+919123456789"
+                    className="hover:underline text-white"
+                     >
+                    +91-9123456789
+                    </a> 
+                  
                 </div>  
                 <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">email.jpg</span> 
+                    <span className="text-cyan-300"> <Mail /> </span> 
+                    <a
+                   href="mailto:CarrerCare@gmail.com"
+                   className="hover:underline text-white">
+                   
                    <span> CarrerCare@gmail.com </span>
+                    </a>
                 </div>
                   <div className="inline-flex space-x-2 items-center">
-                    <span className="text-cyan-300">location.jpg</span> 
-                   <span> Lorem ipsum dolor sit. </span>
+                    <span className="text-cyan-300"> <MapPin /></span> 
+                   <a
+                   href="https://www.google.com/maps/place/Mumbai,+Maharashtra,+India"
+                   target="_blank"
+                    rel="noopener noreferrer"
+                   className="hover:underline text-white">
+                   Mumbai, Maharashtra, India
+                   </a>
                 </div>
                
                </div>
                <div className="flex space-x-4 text-lg">
-                <a href="#"><span>F</span></a>
-                <a href="#"><span>I</span></a>
-                <a href="#"><span>T</span></a>
-                <a href="#"><span>L</span></a>
+                <a href="https://www.linkedin.com"><span><Linkedin /></span></a>
+                <a href="https://www.instagram.com/"><span><Instagram /></span></a>
+                <a href="https://x.com/"><span><Twitter /></span></a>
+                <a href="https://www.youtube.com/"><span><Youtube size={28} /></span></a>
+                <a href="https://www.twitch.tv/"><span><Twitch /></span></a>
                </div>
             </div> 
             <div>
