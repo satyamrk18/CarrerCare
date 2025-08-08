@@ -113,7 +113,7 @@ const notify =()=>toast.success("Message Submitted Successfully !");
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
                   
                 </div>
-                <button onClick={notify} className="inline-block bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm self-end">send message</button>
+                <button onClick={notify} className=" hover:bg-cyan-600 cursor-pointer inline-block bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm self-end">send message</button>
                </form>
               </div>
             </div>  
