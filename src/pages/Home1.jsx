@@ -33,4 +33,16 @@ const CoursesSection = () => {
     { title: 'Data Science with ChatGPT', image: 'https://cdn-icons-png.flaticon.com/512/4714/4714627.png' }
   ];
 
+return (
+    <section className="bg-gray-100 py-20">
+      <div className="max-w-screen-xl mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-12">ChatGPT Courses</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          {courses.map((course, index) => (
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition">
+              <img src={course.image} alt={`Course image for ${course.title}`} className="w-20 h-20 mx-auto mb-4" loading="lazy" />
+              <h3 className="text-xl font-semibold">{course.title}</h3>
+            </div>
+          ))}
+        </div>
 
