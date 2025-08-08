@@ -5,10 +5,12 @@ import Heading from "../components/heading.jsx";
 import Projects from "../components/projects.jsx";
 import Certification from "../components/certification.jsx";
 import Education from "./../components/education.jsx";
-import SocialMedia from "./../components/socialMedia.jsx"
+import SocialMedia from "./../components/socialMedia.jsx";
 const resume = () => {
   return (
-    <div className="resume-container">
+    <div>
+      <Navbar />
+      <div className="resume-container">
       {/* resume form */}
       <div className="resume-form"></div>
       {/* actual resume */}
@@ -23,7 +25,7 @@ const resume = () => {
               <li>V.n.p. appt, panchavati nashik</li>
             </ul>
           </div>
-          <div className="rskill">
+          <div className="skill">
             <Heading title="Skill" />
             <ul>
               <li>java</li>
@@ -59,10 +61,13 @@ const resume = () => {
           </div>
           {/* social media linkes */}
           <div className="social-media-links">
-            <Heading stitle="social handles"/>
-            <SocialMedia title="Linked in" link="http://localhost:5173/resume"/>
-             <SocialMedia title="peerlist" link="http://localhost:5173/resume"/>
-              <SocialMedia title="git hub" link="http://localhost:5173/resume"/>
+            <Heading title="social handles" />
+            <SocialMedia
+              title="Linked in"
+              link="http://localhost:5173/resume"
+            />
+            <SocialMedia title="peerlist" link="http://localhost:5173/resume" />
+            <SocialMedia title="git hub" link="http://localhost:5173/resume" />
           </div>
         </div>
 
@@ -130,6 +135,7 @@ const resume = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
