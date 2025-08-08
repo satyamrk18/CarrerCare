@@ -49,10 +49,10 @@ const Contact = () => {
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
                 </div>
                  <div>
-                  <label htmlFor="" className="text-sm">Email Address</label>
+                  <label htmlFor="" className="text-sm">Email address</label>
                 </div>
                 <div>
-                  <input type="text" placeholder="your name" className="ring-1 ring-gray-300 w-full
+                  <input type="text" placeholder="Email adress" className="ring-1 ring-gray-300 w-full
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
                 </div>
                </form>
