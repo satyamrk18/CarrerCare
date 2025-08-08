@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { Phone , Mail , MapPin, Instagram , Linkedin } from "lucide-react"
+import { Phone , Mail , MapPin, Instagram , Linkedin , Twitter} from "lucide-react"
 
 
 const Contact = () => {
@@ -34,7 +34,7 @@ const Contact = () => {
                <div className="flex space-x-4 text-lg">
                 <a href="#"><span><Linkedin /></span></a>
                 <a href="#"><span><Instagram /></span></a>
-                <a href="#"><span>T</span></a>
+                <a href="#"><span><Twitter /></span></a>
                 <a href="#"><span>L</span></a>
                </div>
             </div> 
