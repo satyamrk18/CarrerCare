@@ -48,7 +48,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com"><span><Linkedin /></span></a>
                 <a href="https://www.instagram.com/"><span><Instagram /></span></a>
                 <a href="https://x.com/"><span><Twitter /></span></a>
-                <a href="#"><span><Youtube size={28} /></span></a>
+                <a href="https://www.youtube.com/"><span><Youtube size={28} /></span></a>
                 <a href="#"><span><Twitch /></span></a>
                </div>
             </div> 
