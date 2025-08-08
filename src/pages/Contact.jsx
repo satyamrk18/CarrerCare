@@ -55,6 +55,14 @@ const Contact = () => {
                   <input type="text" placeholder="Email adress" className="ring-1 ring-gray-300 w-full
                    rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
                 </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Message</label>
+                </div>
+                <div>
+                  <textarea placeholder="Message" rows={4} className="ring-1 ring-gray-300 w-full
+                   rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300 " />
+                  
+                </div>
                </form>
               </div>
             </div>  
