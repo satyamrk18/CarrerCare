@@ -317,6 +317,59 @@ const courses = [
     { url: "https://www.udemy.com/course/aws-certified-developer-associate/", type: "Paid" }
   ]
 } // Paid
+,{
+  title: "Full Stack Web Development with React and Node.js",
+  description: "Learn to build complete web applications using React for the frontend and Node.js/Express for the backend.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.coursera.org/specializations/full-stack-react", type: "Paid" },
+    { url: "https://fullstackopen.com/en/", type: "Free" }
+  ]
+},
+{
+  title: "MERN Stack Crash Course",
+  description: "Get started with MongoDB, Express.js, React, and Node.js for building full-stack apps.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.youtube.com/watch?v=7CqJlxBYj-M", type: "Free" }
+  ]
+},
+{
+  title: "Django and React Full Stack",
+  description: "Build a modern full stack app using Django for backend and React for frontend.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.udemy.com/course/django-with-react-an-ecommerce-website/", type: "Paid" }
+  ]
+},
+{
+  title: "Authentication in Full Stack Apps",
+  description: "Learn authentication and authorization flows in full stack applications.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.digitalocean.com/community/tutorials/oauth-2-0", type: "Free" },
+    { url: "https://www.udemy.com/course/full-stack-react-node-docker-mongodb-and-nginx/", type: "Paid" }
+  ]
+},
+{
+  title: "GraphQL for Full Stack Developers",
+  description: "Integrate GraphQL APIs in full stack projects for flexible data fetching.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://graphql.org/learn/", type: "Free" },
+    { url: "https://www.udemy.com/course/graphql-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Full Stack Deployment",
+  description: "Deploy full stack applications on platforms like Vercel, Heroku, and AWS.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://vercel.com/docs", type: "Free" },
+    { url: "https://www.udemy.com/course/deploying-web-applications/", type: "Paid" }
+  ]
+}
+
 ]
 
 export default courses;
