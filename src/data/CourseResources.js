@@ -396,7 +396,70 @@ const courses = [{
     { url: "https://www.javatpoint.com/java-jdbc", type: "Free" },
     { url: "https://www.udemy.com/course/jdbc-and-java-database-integration-for-beginners/", type: "Paid" }
   ]
+},{
+  title: "HTML & CSS Fundamentals",
+  description: "Learn the basics of structuring and styling web pages using HTML and CSS.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://www.w3schools.com/html/", type: "Free" },
+    { url: "https://www.udemy.com/course/html-and-css-for-beginners-crash-course-learn-fast-easy/", type: "Paid" }
+  ]
+},
+{
+  title: "JavaScript Basics",
+  description: "Understand JavaScript syntax, variables, functions, and DOM manipulation.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://javascript.info/", type: "Free" },
+    { url: "https://www.udemy.com/course/the-complete-javascript-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Responsive Web Design",
+  description: "Make websites adapt seamlessly to different devices and screen sizes.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://www.freecodecamp.org/learn/2022/responsive-web-design/", type: "Free" },
+    { url: "https://www.udemy.com/course/responsive-web-design-tutorial-course-html5-css3-bootstrap/", type: "Paid" }
+  ]
+},
+{
+  title: "React.js Fundamentals",
+  description: "Learn the basics of building interactive UIs with React.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://react.dev/learn", type: "Free" },
+    { url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", type: "Paid" }
+  ]
+},
+{
+  title: "Advanced JavaScript (ES6+)",
+  description: "Master ES6+ features like arrow functions, destructuring, and modules.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://www.javascripttutorial.net/es6/", type: "Free" },
+    { url: "https://www.udemy.com/course/modern-javascript-es6-basics-to-advanced/", type: "Paid" }
+  ]
+},
+{
+  title: "CSS Frameworks (Bootstrap & Tailwind CSS)",
+  description: "Speed up development using popular CSS frameworks.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://getbootstrap.com/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/tailwind-css-from-scratch/", type: "Paid" }
+  ]
+},
+{
+  title: "Version Control with Git",
+  description: "Learn how to use Git for tracking changes and collaborating on projects.",
+  category: "Frontend Development",
+  resources: [
+    { url: "https://git-scm.com/docs", type: "Free" },
+    { url: "https://www.udemy.com/course/git-complete/", type: "Paid" }
+  ]
 }
+
 
 
 
