@@ -13,10 +13,7 @@ const AboutUs = () => {
            <div className="summary-section">
              <h1>About CareerCare</h1>
              <p>
-              CareerCare is a career exploration platform that helps students and learners
-              discover different career options, required skills, courses, job roles, and
-              growth paths. It aims to make career planning easy, informative, and
-              engaging.
+             Welcome to CareerCare, your personalized guide to exploring the world of careers!<br />We created this platform to make career planning simpler, smarter, and more inspiring for students and learners.Whether you're unsure about your future path or curious about the skills needed for your dream job, Career Compass helps you discover various career options,essential skills, and relevant courses – all in one place.<br />Our website is built using HTML, CSS, JavaScript, and React JS, combining creativity and technology to deliver an interactive and informative experience.Careercare is designed to empower you to make confident and informed career decisions.<br />Let’s turn confusion into clarity – start exploring today!
             </p>
              <Button name="Explore Careers" />
            </div>
