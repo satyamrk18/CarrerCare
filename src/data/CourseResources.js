@@ -458,7 +458,70 @@ const courses = [{
     { url: "https://git-scm.com/docs", type: "Free" },
     { url: "https://www.udemy.com/course/git-complete/", type: "Paid" }
   ]
+},{
+  title: "Node.js Basics",
+  description: "Learn server-side JavaScript development with Node.js.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://nodejs.dev/en/learn/", type: "Free" },
+    { url: "https://www.udemy.com/course/nodejs-the-complete-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "Express.js Framework",
+  description: "Build robust backend applications using Express.js.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://expressjs.com/en/starter/installing.html", type: "Free" },
+    { url: "https://www.udemy.com/course/expressjs-the-complete-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "Databases with MongoDB",
+  description: "Work with NoSQL databases using MongoDB and Mongoose.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://www.mongodb.com/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/mongodb-the-complete-developers-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "REST API Development",
+  description: "Design and implement RESTful APIs for backend services.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://restfulapi.net/", type: "Free" },
+    { url: "https://www.udemy.com/course/rest-api-design-nodejs-api-development/", type: "Paid" }
+  ]
+},
+{
+  title: "Authentication & Authorization",
+  description: "Implement secure login systems with JWT, OAuth, and sessions.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://developer.okta.com/blog/2018/11/15/node-express-typescript", type: "Free" },
+    { url: "https://www.udemy.com/course/secure-nodejs-api-with-jwt-authentication/", type: "Paid" }
+  ]
+},
+{
+  title: "SQL Databases (PostgreSQL/MySQL)",
+  description: "Learn how to manage and query relational databases.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://www.postgresql.org/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/the-complete-sql-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Backend Deployment",
+  description: "Deploy backend applications to cloud platforms like Heroku and AWS.",
+  category: "Backend Development",
+  resources: [
+    { url: "https://devcenter.heroku.com/", type: "Free" },
+    { url: "https://www.udemy.com/course/deploying-nodejs-to-aws/", type: "Paid" }
+  ]
 }
+
 
 
 
