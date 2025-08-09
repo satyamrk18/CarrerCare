@@ -830,7 +830,70 @@ const courses = [{
     { url: "https://argo-cd.readthedocs.io/en/stable/", type: "Free" },
     { url: "https://www.udemy.com/course/gitops-with-argocd/", type: "Paid" }
   ]
+},{
+  title: "Blockchain Basics",
+  description: "Understand the core concepts and architecture of blockchain technology.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://www.ibm.com/topics/what-is-blockchain", type: "Free" },
+    { url: "https://www.udemy.com/course/blockchain-and-cryptocurrency-explained/", type: "Paid" }
+  ]
+},
+{
+  title: "Ethereum Smart Contracts with Solidity",
+  description: "Learn to develop decentralized applications (dApps) using Solidity.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://docs.soliditylang.org/en/v0.8.21/", type: "Free" },
+    { url: "https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "Hyperledger Fabric Fundamentals",
+  description: "Get started with permissioned blockchain using Hyperledger Fabric.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://hyperledger-fabric.readthedocs.io/en/latest/", type: "Free" },
+    { url: "https://www.udemy.com/course/hyperledger-fabric-blockchain/", type: "Paid" }
+  ]
+},
+{
+  title: "Decentralized Finance (DeFi) Development",
+  description: "Explore DeFi protocols and build your own decentralized financial applications.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://ethereum.org/en/defi/", type: "Free" },
+    { url: "https://www.udemy.com/course/decentralized-finance-defi-course-2021/", type: "Paid" }
+  ]
+},
+{
+  title: "NFT Development on Ethereum",
+  description: "Create and deploy your own Non-Fungible Tokens (NFTs) using ERC-721.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/", type: "Free" },
+    { url: "https://www.udemy.com/course/nft-development-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Blockchain Security Best Practices",
+  description: "Learn how to secure blockchain applications and smart contracts.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://consensys.github.io/smart-contract-best-practices/", type: "Free" },
+    { url: "https://www.udemy.com/course/blockchain-security-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Web3.js for Blockchain Developers",
+  description: "Interact with Ethereum blockchain using Web3.js library.",
+  category: "Blockchain Development",
+  resources: [
+    { url: "https://web3js.readthedocs.io/en/v1.10.0/", type: "Free" },
+    { url: "https://www.udemy.com/course/complete-dapp-solidity-react-blockchain-development/", type: "Paid" }
+  ]
 }
+
 
 
 
