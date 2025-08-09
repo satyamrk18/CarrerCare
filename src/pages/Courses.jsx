@@ -10,8 +10,22 @@ const Courses = () => {
 	};
 
 
-	const filteredCourses = (selectedCategory === "All" ? courses : courses.filter((course) => course.category === selectedCategory))
-		.flatMap((course) =>
+	// Filter and deduplicate courses by title and description
+	const filteredCourses = (() => {
+		const filtered = selectedCategory === "All"
+			? courses
+			: courses.filter((course) => course.category === selectedCategory);
+		const seen = new Set();
+		const unique = [];
+		for (const course of filtered) {
+			const key = course.title + '|' + course.description;
+			if (!seen.has(key)) {
+				seen.add(key);
+				unique.push(course);
+			}
+		}
+		// Flatten resources for each unique course
+		return unique.flatMap((course) =>
 			Array.isArray(course.resources)
 				? course.resources.map((resource, idx) => {
 					const isObj = typeof resource === 'object' && resource !== null;
@@ -23,6 +37,7 @@ const Courses = () => {
 				})
 				: []
 		);
+	})();
 
 	return (
 		<div className="p-6">
