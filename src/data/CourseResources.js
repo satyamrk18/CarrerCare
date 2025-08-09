@@ -768,7 +768,70 @@ const courses = [{
     { url: "https://aws.amazon.com/serverless/", type: "Free" },
     { url: "https://www.udemy.com/course/serverless-framework/", type: "Paid" }
   ]
+},{
+  title: "Introduction to DevOps",
+  description: "Learn the fundamentals of DevOps culture, principles, and practices.",
+  category: "DevOps",
+  resources: [
+    { url: "https://aws.amazon.com/devops/what-is-devops/", type: "Free" },
+    { url: "https://www.udemy.com/course/devops-foundations/", type: "Paid" }
+  ]
+},
+{
+  title: "CI/CD with Jenkins",
+  description: "Master Continuous Integration and Continuous Delivery using Jenkins.",
+  category: "DevOps",
+  resources: [
+    { url: "https://www.jenkins.io/doc/tutorials/", type: "Free" },
+    { url: "https://www.udemy.com/course/jenkins-from-zero-to-hero/", type: "Paid" }
+  ]
+},
+{
+  title: "Docker for DevOps Engineers",
+  description: "Learn Docker containers and how to integrate them into DevOps pipelines.",
+  category: "DevOps",
+  resources: [
+    { url: "https://docs.docker.com/get-started/", type: "Free" },
+    { url: "https://www.udemy.com/course/docker-mastery/", type: "Paid" }
+  ]
+},
+{
+  title: "Kubernetes for Beginners",
+  description: "Learn Kubernetes fundamentals for container orchestration.",
+  category: "DevOps",
+  resources: [
+    { url: "https://kubernetes.io/docs/tutorials/", type: "Free" },
+    { url: "https://www.udemy.com/course/kubernetes-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Infrastructure as Code with Terraform",
+  description: "Manage cloud infrastructure using Terraform and IaC principles.",
+  category: "DevOps",
+  resources: [
+    { url: "https://developer.hashicorp.com/terraform/tutorials", type: "Free" },
+    { url: "https://www.udemy.com/course/terraform-beginner-to-advanced/", type: "Paid" }
+  ]
+},
+{
+  title: "Monitoring and Logging with Prometheus & Grafana",
+  description: "Set up monitoring and visualization for DevOps systems.",
+  category: "DevOps",
+  resources: [
+    { url: "https://prometheus.io/docs/introduction/overview/", type: "Free" },
+    { url: "https://www.udemy.com/course/prometheus-grafana/", type: "Paid" }
+  ]
+},
+{
+  title: "GitOps with ArgoCD",
+  description: "Implement GitOps principles using ArgoCD for Kubernetes deployments.",
+  category: "DevOps",
+  resources: [
+    { url: "https://argo-cd.readthedocs.io/en/stable/", type: "Free" },
+    { url: "https://www.udemy.com/course/gitops-with-argocd/", type: "Paid" }
+  ]
 }
+
 
 
 
