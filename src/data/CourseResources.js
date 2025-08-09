@@ -205,8 +205,48 @@ const courses = [
   description: "Learn how to make your websites usable by people of all abilities.",
   category: "Frontend Development",
   resources: ["https://www.w3.org/WAI/fundamentals/accessibility-intro/", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility"]
-} // Free
+}, // Free,
+{
+  title: "Node.js Fundamentals",
+  description: "Learn how to build backend applications using Node.js and understand the basics of server-side JavaScript.",
+  category: "Backend Development",
+  resources: ["https://nodejs.dev/en/learn/", "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"]
+}, // Paid
 
-];
+{
+  title: "Express.js Crash Course",
+  description: "Get started with Express.js, the fast and minimalist web framework for Node.js.",
+  category: "Backend Development",
+  resources: ["https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction", "https://www.youtube.com/watch?v=L72fhGm1tfE"]
+}, // Free
+
+{
+  title: "REST API Development",
+  description: "Learn to design and build RESTful APIs using backend technologies.",
+  category: "Backend Development",
+  resources: ["https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/", "https://www.udemy.com/course/rest-api-design-the-complete-guide/"]
+}, // Paid
+
+{
+  title: "Databases with MongoDB",
+  description: "Master MongoDB for building modern, scalable applications.",
+  category: "Backend Development",
+  resources: ["https://www.mongodb.com/docs/manual/tutorial/getting-started/", "https://www.udemy.com/course/mongodb-the-complete-developers-guide/"]
+}, // Paid
+
+{
+  title: "Authentication & Authorization",
+  description: "Understand how to secure backend applications with JWT, OAuth, and other methods.",
+  category: "Backend Development",
+  resources: ["https://www.digitalocean.com/community/tutorial_series/oauth-2-0", "https://www.udemy.com/course/nodejs-jwt-authentication-oauth/"]
+}, // Paid
+
+{
+  title: "Backend Deployment",
+  description: "Learn how to deploy backend applications to cloud platforms like Heroku, AWS, and Render.",
+  category: "Backend Development",
+  resources: ["https://devcenter.heroku.com/articles/getting-started-with-nodejs", "https://www.udemy.com/course/aws-certified-developer-associate/"]
+} // Paid
+]
 
 export default courses;
