@@ -1077,7 +1077,70 @@ const courses = [{
     { url: "https://material.io/design", type: "Free" },
     { url: "https://www.udemy.com/course/mobile-ui-ux-design/", type: "Paid" }
   ]
+},{
+  title: "Database Fundamentals",
+  description: "Learn the basics of database systems, architecture, and models.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://www.khanacademy.org/computing/computer-programming/sql", type: "Free" },
+    { url: "https://www.udemy.com/course/database-administration-fundamentals/", type: "Paid" }
+  ]
+},
+{
+  title: "SQL for Database Administration",
+  description: "Master SQL queries and database management.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://mode.com/sql-tutorial/", type: "Free" },
+    { url: "https://www.udemy.com/course/sql-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "MySQL Administration",
+  description: "Manage and optimize MySQL databases.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://dev.mysql.com/doc/", type: "Free" },
+    { url: "https://www.udemy.com/course/mysql-database-administration/", type: "Paid" }
+  ]
+},
+{
+  title: "PostgreSQL for DBAs",
+  description: "Learn to administer and optimize PostgreSQL databases.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://www.postgresql.org/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/postgresql-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Oracle Database Administration",
+  description: "Manage Oracle database systems and perform advanced DBA tasks.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://docs.oracle.com/en/database/", type: "Free" },
+    { url: "https://www.udemy.com/course/oracle-database-administration/", type: "Paid" }
+  ]
+},
+{
+  title: "Database Security Best Practices",
+  description: "Protect databases from vulnerabilities and attacks.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://www.sans.org/cyber-security-courses/database-security/", type: "Free" },
+    { url: "https://www.udemy.com/course/database-security/", type: "Paid" }
+  ]
+},
+{
+  title: "Backup and Recovery",
+  description: "Learn strategies for data backup, recovery, and disaster management.",
+  category: "Database Administration",
+  resources: [
+    { url: "https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/", type: "Free" },
+    { url: "https://www.udemy.com/course/database-backup-and-recovery/", type: "Paid" }
+  ]
 }
+
 
 
 
