@@ -104,7 +104,61 @@ const courses = [{
     { url: "https://developer.android.com/guide", type: "Free" },
     { url: "https://www.udemy.com/course/advanced-android-app-development/", type: "Paid" }
   ]
+},{
+  title: "Introduction to Artificial Intelligence",
+  description: "Understand the basics of AI, its history, and applications in various fields.",
+  category: "AI",
+  resources: [
+    { url: "https://www.coursera.org/learn/introduction-to-ai", type: "Free" },
+    { url: "https://www.udemy.com/course/artificial-intelligence-az/", type: "Paid" }
+  ]
+},
+{
+  title: "Machine Learning with Python",
+  description: "Learn core machine learning concepts and implement them using Python libraries.",
+  category: "AI",
+  resources: [
+    { url: "https://scikit-learn.org/stable/tutorial/index.html", type: "Free" },
+    { url: "https://www.udemy.com/course/machinelearning/", type: "Paid" }
+  ]
+},
+{
+  title: "Deep Learning Fundamentals",
+  description: "Explore neural networks, CNNs, RNNs, and deep learning frameworks like TensorFlow.",
+  category: "AI",
+  resources: [
+    { url: "https://www.deeplearning.ai/courses/deep-learning-specialization/", type: "Free" },
+    { url: "https://www.udemy.com/course/deeplearning/", type: "Paid" }
+  ]
+},
+{
+  title: "Natural Language Processing (NLP)",
+  description: "Learn to process and analyze text data using NLP libraries and models.",
+  category: "AI",
+  resources: [
+    { url: "https://web.stanford.edu/~jurafsky/NLP.html", type: "Free" },
+    { url: "https://www.udemy.com/course/nlp-natural-language-processing-with-python/", type: "Paid" }
+  ]
+},
+{
+  title: "Computer Vision Basics",
+  description: "Understand image processing, object detection, and recognition using OpenCV.",
+  category: "AI",
+  resources: [
+    { url: "https://docs.opencv.org/master/d9/df8/tutorial_root.html", type: "Free" },
+    { url: "https://www.udemy.com/course/computer-vision-a-z/", type: "Paid" }
+  ]
+},
+{
+  title: "AI in Real-world Applications",
+  description: "Learn how AI is used in healthcare, finance, robotics, and other industries.",
+  category: "AI",
+  resources: [
+    { url: "https://www.edx.org/course/artificial-intelligence-ai", type: "Free" },
+    { url: "https://www.udemy.com/course/artificial-intelligence-real-world-projects/", type: "Paid" }
+  ]
 }
+
 
 
 
