@@ -272,7 +272,70 @@ const courses = [{
     { url: "https://aws.amazon.com/iot-core/getting-started/", type: "Free" },
     { url: "https://www.udemy.com/course/iot-integration-with-cloud-computing/", type: "Paid" }
   ]
+},{
+  title: "Data Science Fundamentals",
+  description: "Learn the basics of data science, including data collection, cleaning, and analysis.",
+  category: "Data Science",
+  resources: [
+    { url: "https://www.coursera.org/learn/what-is-datascience", type: "Free" },
+    { url: "https://www.udemy.com/course/data-science-and-machine-learning-bootcamp-with-r/", type: "Paid" }
+  ]
+},
+{
+  title: "Python for Data Science",
+  description: "Use Python libraries like Pandas, NumPy, and Matplotlib for data analysis.",
+  category: "Data Science",
+  resources: [
+    { url: "https://www.kaggle.com/learn/python", type: "Free" },
+    { url: "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Data Visualization",
+  description: "Master data visualization tools like Tableau, Power BI, and Matplotlib.",
+  category: "Data Science",
+  resources: [
+    { url: "https://public.tableau.com/en-us/s/resources", type: "Free" },
+    { url: "https://www.udemy.com/course/tableau10/", type: "Paid" }
+  ]
+},
+{
+  title: "Statistics for Data Science",
+  description: "Understand statistical concepts essential for data science applications.",
+  category: "Data Science",
+  resources: [
+    { url: "https://www.khanacademy.org/math/statistics-probability", type: "Free" },
+    { url: "https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/", type: "Paid" }
+  ]
+},
+{
+  title: "Machine Learning Basics",
+  description: "Get introduced to supervised and unsupervised machine learning techniques.",
+  category: "Data Science",
+  resources: [
+    { url: "https://www.coursera.org/learn/machine-learning", type: "Free" },
+    { url: "https://www.udemy.com/course/machinelearning/", type: "Paid" }
+  ]
+},
+{
+  title: "Big Data Analytics",
+  description: "Learn big data tools like Hadoop and Spark for handling large datasets.",
+  category: "Data Science",
+  resources: [
+    { url: "https://spark.apache.org/", type: "Free" },
+    { url: "https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/", type: "Paid" }
+  ]
+},
+{
+  title: "Data Science Project Deployment",
+  description: "Deploy data science models to production using Flask, FastAPI, or cloud platforms.",
+  category: "Data Science",
+  resources: [
+    { url: "https://fastapi.tiangolo.com/", type: "Free" },
+    { url: "https://www.udemy.com/course/deployment-of-machine-learning-models/", type: "Paid" }
+  ]
 }
+
 
 
 
