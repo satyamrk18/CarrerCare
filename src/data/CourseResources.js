@@ -368,7 +368,89 @@ const courses = [
     { url: "https://vercel.com/docs", type: "Free" },
     { url: "https://www.udemy.com/course/deploying-web-applications/", type: "Paid" }
   ]
+},
+{
+  title: "iOS Development with Swift",
+  description: "Learn to build native iOS apps using Swift and Xcode.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/learn/curriculum/", type: "Free" },
+    { url: "https://www.udemy.com/course/ios-13-app-development-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Swift Programming Fundamentals",
+  description: "Understand the basics of Swift programming language for iOS development.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://www.hackingwithswift.com/100", type: "Free" },
+    { url: "https://www.udemy.com/course/swift-programming-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "SwiftUI Essentials",
+  description: "Master building user interfaces with SwiftUI framework.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/tutorials/swiftui", type: "Free" },
+    { url: "https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/", type: "Paid" }
+  ]
+},
+{
+  title: "Core Data for iOS",
+  description: "Learn how to store and manage data locally in iOS apps with Core Data.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://www.raywenderlich.com/7569-getting-started-with-core-data-tutorial", type: "Free" },
+    { url: "https://www.udemy.com/course/core-data-in-ios/", type: "Paid" }
+  ]
+},
+{
+  title: "iOS Networking with URLSession & Combine",
+  description: "Understand how to work with APIs and networking in iOS apps.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/foundation/urlsession", type: "Free" },
+    { url: "https://www.udemy.com/course/networking-with-swift/", type: "Paid" }
+  ]
+},
+{
+  title: "UIKit for iOS",
+  description: "Learn to build interfaces and manage user interactions using UIKit.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/uikit", type: "Free" },
+    { url: "https://www.udemy.com/course/uikit-fundamentals-for-ios-development/", type: "Paid" }
+  ]
+},
+{
+  title: "App Store Submission & Deployment",
+  description: "Learn how to prepare and submit iOS apps to the App Store.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/ios/submit/", type: "Free" },
+    { url: "https://www.udemy.com/course/ios-app-store-submission-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "ARKit for iOS",
+  description: "Build augmented reality apps using Apple's ARKit framework.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/augmented-reality/", type: "Free" },
+    { url: "https://www.udemy.com/course/arkit-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Testing and Debugging in Xcode",
+  description: "Learn to test and debug iOS applications effectively using Xcode tools.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/xcode/testing-your-apps-in-simulator", type: "Free" },
+    { url: "https://www.udemy.com/course/unit-testing-in-ios-with-xctest/", type: "Paid" }
+  ]
 }
+
 
 ]
 
