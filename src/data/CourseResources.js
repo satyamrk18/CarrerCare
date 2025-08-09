@@ -582,7 +582,70 @@ const courses = [{
     { url: "https://vercel.com/docs", type: "Free" },
     { url: "https://www.udemy.com/course/deploying-full-stack-apps/", type: "Paid" }
   ]
+},{
+  title: "iOS Development with Swift",
+  description: "Learn the fundamentals of Swift programming for iOS app development.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/swift/resources/", type: "Free" },
+    { url: "https://www.udemy.com/course/ios-13-app-development-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "SwiftUI Essentials",
+  description: "Create beautiful and responsive UIs with Apple's SwiftUI framework.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/tutorials/swiftui", type: "Free" },
+    { url: "https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/", type: "Paid" }
+  ]
+},
+{
+  title: "UIKit Fundamentals",
+  description: "Understand UIKit to build powerful and custom iOS interfaces.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/uikit", type: "Free" },
+    { url: "https://www.udemy.com/course/ios-12-app-development-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Core Data & Persistence",
+  description: "Learn to store and manage data in iOS apps using Core Data.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/coredata", type: "Free" },
+    { url: "https://www.udemy.com/course/core-data-in-ios-with-swift/", type: "Paid" }
+  ]
+},
+{
+  title: "iOS Networking",
+  description: "Fetch and send data over the internet using URLSession and REST APIs.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/foundation/url_loading_system", type: "Free" },
+    { url: "https://www.udemy.com/course/ios-networking-with-swift/", type: "Paid" }
+  ]
+},
+{
+  title: "App Store Deployment",
+  description: "Learn how to prepare and publish your iOS app on the App Store.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/app-store/", type: "Free" },
+    { url: "https://www.udemy.com/course/app-store-optimization-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Advanced iOS Development",
+  description: "Master advanced concepts like Combine, ARKit, and ML integration.",
+  category: "iOS Development",
+  resources: [
+    { url: "https://developer.apple.com/documentation/", type: "Free" },
+    { url: "https://www.udemy.com/course/advanced-ios-app-development-with-swift/", type: "Paid" }
+  ]
 }
+
 
 
 
