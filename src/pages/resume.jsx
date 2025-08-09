@@ -8,23 +8,63 @@ import Education from "./../components/education.jsx";
 import SocialMedia from "./../components/socialMedia.jsx";
 import ProfilePic from "../components/profilePic.jsx";
 import { useState, useEffect } from "react";
-import Input from "../components/input.jsx"
+import Input from "../components/input.jsx";
 const resume = () => {
   const [name, setName] = useState("");
   const [summary, setSummary] = useState("");
   const [project1, setPorject1] = useState("");
-    const [project2, setPorject2] = useState("");
+  const [project2, setPorject2] = useState("");
+  const [aim1, setAim1] = useState("");
+  const [aim2, setAim2] = useState("");
   return (
     <div>
       <Navbar />
       <div className="resume-container">
         {/* resume form */}
         <div className="resume-form">
-         <Input type="text" heading="Name" onChange={(e)=>{setName(e.target.value)}}/>
-         <Input type="text" heading="summary" onChange={(e)=>{setSummary(e.target.value)}}/>
-         <Heading title="project 1"/>
-         <Input  type="text" heading ="1st project name" onChange={(e)=>{setPorject1(e.target.value)}}/>
-          <Input  type="text" heading ="2nd project name" onChange={(e)=>{setPorject2(e.target.value)}}/>
+          <Input
+            type="text"
+            heading="Name"
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+          />
+          <Input
+            type="text"
+            heading="summary"
+            onChange={(e) => {
+              setSummary(e.target.value);
+            }}
+          />
+          <Heading title="projects" />
+          <Input
+            type="text"
+            heading="1st project name"
+            onChange={(e) => {
+              setPorject1(e.target.value);
+            }}
+          />
+          <Input
+            type="text"
+            heading="aim"
+            onChange={(e) => {
+              setAim1(e.target.value);
+            }}
+          />
+          <Input
+            type="text"
+            heading="2nd project name"
+            onChange={(e) => {
+              setPorject2(e.target.value);
+            }}
+          />
+          <Input
+            type="text"
+            heading="aim"
+            onChange={(e) => {
+              setAim2(e.target.value);
+            }}
+          />
         </div>
         {/* actual resume */}
         <div className="actual-resume">
@@ -114,10 +154,14 @@ const resume = () => {
             <div className="projects">
               <Heading title="projects" />
               <Projects
-                projectName={project1 != "" ?`1] ${project1}` : `1] project 1`}
-                aim=" Temporibus iste itaque, ab culpa velit iure
+                projectName={project1 != "" ? `1] ${project1}` : `1] project 1`}
+                aim={
+                  aim1 != ""
+                    ? aim1
+                    : `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
-              sequi dolores quos minima natus aspernatur."
+              sequi dolores quos minima natus aspernatur.`
+                }
                 impact=" Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur."
@@ -126,11 +170,15 @@ const resume = () => {
               sequi dolores quos minima natus aspernatur."
               />
               {/* project-2 */}
-             <Projects
-                projectName={project2 != "" ?`2] ${project2}` : `2] project 2`}
-                aim=" Temporibus iste itaque, ab culpa velit iure   
+              <Projects
+                projectName={project2 != "" ? `2] ${project2}` : `2] project 2`}
+                aim={
+                  aim2 != ""
+                    ? aim2
+                    : ` Temporibus iste itaque, ab culpa velit iure     
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
-              sequi dolores quos minima natus aspernatur."
+              sequi dolores quos minima natus aspernatur.`
+                }
                 impact=" Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur."
