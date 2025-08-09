@@ -520,7 +520,70 @@ const courses = [{
     { url: "https://devcenter.heroku.com/", type: "Free" },
     { url: "https://www.udemy.com/course/deploying-nodejs-to-aws/", type: "Paid" }
   ]
+},{
+  title: "Full Stack Web Development with MERN",
+  description: "Learn to build complete web apps using MongoDB, Express, React, and Node.js.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.mongodb.com/mern-stack", type: "Free" },
+    { url: "https://www.udemy.com/course/mern-stack-front-to-back/", type: "Paid" }
+  ]
+},
+{
+  title: "HTML, CSS & JavaScript Mastery",
+  description: "Master the core frontend technologies before diving into full stack.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.freecodecamp.org/learn", type: "Free" },
+    { url: "https://www.udemy.com/course/the-complete-web-development-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "React for Full Stack Developers",
+  description: "Create dynamic frontend interfaces with React.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://react.dev/learn", type: "Free" },
+    { url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", type: "Paid" }
+  ]
+},
+{
+  title: "Node.js & Express Backend",
+  description: "Build backend APIs to power full stack apps.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://nodejs.dev/en/learn/", type: "Free" },
+    { url: "https://www.udemy.com/course/nodejs-the-complete-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "Database Integration (MongoDB & SQL)",
+  description: "Store and retrieve app data efficiently using databases.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://www.mongodb.com/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/sql-and-database-design/", type: "Paid" }
+  ]
+},
+{
+  title: "REST & GraphQL APIs",
+  description: "Learn both REST and GraphQL approaches to backend communication.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://graphql.org/learn/", type: "Free" },
+    { url: "https://www.udemy.com/course/graphql-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Full Stack Deployment",
+  description: "Deploy full stack apps to platforms like Vercel, Netlify, and AWS.",
+  category: "Full Stack Development",
+  resources: [
+    { url: "https://vercel.com/docs", type: "Free" },
+    { url: "https://www.udemy.com/course/deploying-full-stack-apps/", type: "Paid" }
+  ]
 }
+
 
 
 
