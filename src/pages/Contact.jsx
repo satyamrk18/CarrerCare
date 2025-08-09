@@ -29,7 +29,7 @@ const Contact = () => {
    
  return (
     <>
-      <Toaster position="top" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
       <div className="bg-gray-100">
        <div className=" flex justify-center items-center w-full min-h-screen"> 
           <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
