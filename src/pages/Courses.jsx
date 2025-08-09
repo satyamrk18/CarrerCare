@@ -27,6 +27,12 @@ const Courses = () => {
 
 	return (
 		<div className="p-6">
+				<h1
+					className="text-4xl font-extrabold text-center mb-10 tracking-wider bg-gradient-to-r from-blue-400 via-black to-blue-400 bg-clip-text text-transparent drop-shadow-lg uppercase"
+					style={{ letterSpacing: '0.1em', textShadow: '0 2px 8px rgba(59,130,246,0.2)' }}
+				>
+					COURSE RECOMMENDATION
+				</h1>
 			{/* Dropdown filter */}
 			<CourseDropdown value={selectedCategory} onChange={handleDropdownChange} />
 
