@@ -4,7 +4,40 @@ export default function PlacementPrediction() {
   const [score, setScore] = useState(0);
   const [submitted, setSubmitted] = useState(false);
 
-  
+  const [form, setForm] = useState({
+    cgpa: "",
+    skills: 0,
+    internship: "no",
+    projects: 0,
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+
+  const calculateScore = () => {
+    let s = 0;
+
+    // CGPA 
+    if (form.cgpa >= 9) s += 30;
+    else if (form.cgpa >= 8) s += 25;
+    else if (form.cgpa >= 7) s += 20;
+    else s += 10;
+
+    // Skills
+    s += form.skills * 5;
+
+    // Internship
+    if (form.internship === "yes") s += 20;
+
+    // Projects
+    s += form.projects * 5;
+
+    setScore(s > 100 ? 100 : s);
+    setSubmitted(true);
+  };
+
   return (
     <div className="min-h-screen bg-gray-900 text-white px-4 py-10">
       <div className="max-w-3xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
