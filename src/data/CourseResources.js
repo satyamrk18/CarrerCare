@@ -164,7 +164,49 @@ const courses = [
     description: "Learn Data Structures and Algorithms in Java for coding interviews.",
     category: "Java Developer",
     resources: ["https://www.geeksforgeeks.org/data-structures/"]
-  }
+  },
+  {
+  title: "HTML & CSS Basics",
+  description: "Master the core building blocks of web development, including HTML structure and CSS styling.",
+  category: "Frontend Development",
+  resources: ["https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web", "https://www.w3schools.com/html/"]
+}, // Free
+
+{
+  title: "JavaScript Fundamentals",
+  description: "Learn the essential concepts of JavaScript, the programming language of the web.",
+  category: "Frontend Development",
+  resources: ["https://javascript.info/", "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"]
+}, // Free
+
+{
+  title: "Responsive Web Design",
+  description: "Understand how to make web pages look great on all devices using media queries and flexible layouts.",
+  category: "Frontend Development",
+  resources: ["https://www.freecodecamp.org/learn/responsive-web-design/", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"]
+}, // Free
+
+{
+  title: "React for Beginners",
+  description: "Get started with React, one of the most popular JavaScript frameworks for building modern UIs.",
+  category: "Frontend Development",
+  resources: ["https://react.dev/learn", "https://www.codecademy.com/learn/react-101"]
+}, // Mixed (First link Free, Second Paid)
+
+{
+  title: "Advanced CSS and Sass",
+  description: "Enhance your styling skills with advanced CSS techniques and Sass for maintainable code.",
+  category: "Frontend Development",
+  resources: ["https://sass-lang.com/guide", "https://css-tricks.com/snippets/css/complete-guide-grid/"]
+}, // Free
+
+{
+  title: "Web Accessibility",
+  description: "Learn how to make your websites usable by people of all abilities.",
+  category: "Frontend Development",
+  resources: ["https://www.w3.org/WAI/fundamentals/accessibility-intro/", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility"]
+} // Free
+
 ];
 
 export default courses;
