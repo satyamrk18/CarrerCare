@@ -892,7 +892,70 @@ const courses = [{
     { url: "https://web3js.readthedocs.io/en/v1.10.0/", type: "Free" },
     { url: "https://www.udemy.com/course/complete-dapp-solidity-react-blockchain-development/", type: "Paid" }
   ]
+},{
+  title: "Game Development Fundamentals",
+  description: "Learn the basics of game design and development principles.",
+  category: "Game Development",
+  resources: [
+    { url: "https://learn.unity.com/", type: "Free" },
+    { url: "https://www.udemy.com/course/unitycourse/", type: "Paid" }
+  ]
+},
+{
+  title: "Unity Game Development",
+  description: "Build 2D and 3D games using the Unity engine.",
+  category: "Game Development",
+  resources: [
+    { url: "https://learn.unity.com/tutorials", type: "Free" },
+    { url: "https://www.udemy.com/course/unitycourse/", type: "Paid" }
+  ]
+},
+{
+  title: "Unreal Engine for Beginners",
+  description: "Create high-quality games with Unreal Engine.",
+  category: "Game Development",
+  resources: [
+    { url: "https://www.unrealengine.com/en-US/onlinelearning-courses", type: "Free" },
+    { url: "https://www.udemy.com/course/unrealcourse/", type: "Paid" }
+  ]
+},
+{
+  title: "C# Programming for Games",
+  description: "Learn C# programming for game development in Unity.",
+  category: "Game Development",
+  resources: [
+    { url: "https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/", type: "Free" },
+    { url: "https://www.udemy.com/course/csharp-tutorial-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "2D Game Development",
+  description: "Master the art of creating 2D games using various tools.",
+  category: "Game Development",
+  resources: [
+    { url: "https://learn.unity.com/tutorials/2d-game-kit", type: "Free" },
+    { url: "https://www.udemy.com/course/2d-game-development-course/", type: "Paid" }
+  ]
+},
+{
+  title: "3D Game Development",
+  description: "Build immersive 3D games with advanced graphics and physics.",
+  category: "Game Development",
+  resources: [
+    { url: "https://learn.unity.com/tutorials/3d-game-kit", type: "Free" },
+    { url: "https://www.udemy.com/course/3d-game-development-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Game AI Programming",
+  description: "Implement artificial intelligence for non-player characters (NPCs).",
+  category: "Game Development",
+  resources: [
+    { url: "https://www.gamedev.net/tutorials/programming/artificial-intelligence/", type: "Free" },
+    { url: "https://www.udemy.com/course/game-ai-development/", type: "Paid" }
+  ]
 }
+
 
 
 
