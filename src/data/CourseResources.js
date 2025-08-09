@@ -334,7 +334,70 @@ const courses = [{
     { url: "https://fastapi.tiangolo.com/", type: "Free" },
     { url: "https://www.udemy.com/course/deployment-of-machine-learning-models/", type: "Paid" }
   ]
+},{
+  title: "Java Programming Fundamentals",
+  description: "Learn the basics of Java, including syntax, data types, and control flow.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://www.learnjavaonline.org/", type: "Free" },
+    { url: "https://www.udemy.com/course/java-the-complete-java-developer-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Object-Oriented Programming in Java",
+  description: "Master OOP concepts like inheritance, polymorphism, and encapsulation in Java.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://www.javatpoint.com/java-oops-concepts", type: "Free" },
+    { url: "https://www.udemy.com/course/java-object-oriented-programming/", type: "Paid" }
+  ]
+},
+{
+  title: "Java Collections Framework",
+  description: "Learn how to use Java’s Collections API for efficient data handling.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://www.baeldung.com/java-collections", type: "Free" },
+    { url: "https://www.udemy.com/course/java-collections-framework/", type: "Paid" }
+  ]
+},
+{
+  title: "Java Multithreading and Concurrency",
+  description: "Understand multithreading, concurrency, and parallel programming in Java.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://www.baeldung.com/java-concurrency", type: "Free" },
+    { url: "https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/", type: "Paid" }
+  ]
+},
+{
+  title: "Spring Framework Basics",
+  description: "Learn to build Java applications using the Spring framework.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://spring.io/guides", type: "Free" },
+    { url: "https://www.udemy.com/course/spring-framework-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Spring Boot for Java Developers",
+  description: "Create production-ready Java applications using Spring Boot.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://spring.io/projects/spring-boot", type: "Free" },
+    { url: "https://www.udemy.com/course/spring-boot-tutorial-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Java Database Connectivity (JDBC)",
+  description: "Learn how to connect and interact with databases using JDBC.",
+  category: "Java Developer",
+  resources: [
+    { url: "https://www.javatpoint.com/java-jdbc", type: "Free" },
+    { url: "https://www.udemy.com/course/jdbc-and-java-database-integration-for-beginners/", type: "Paid" }
+  ]
 }
+
 
 
 
