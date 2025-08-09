@@ -396,15 +396,8 @@ const courses = [{
     { url: "https://www.javatpoint.com/java-jdbc", type: "Free" },
     { url: "https://www.udemy.com/course/jdbc-and-java-database-integration-for-beginners/", type: "Paid" }
   ]
-},{
-  title: "HTML & CSS Fundamentals",
-  description: "Learn the basics of structuring and styling web pages using HTML and CSS.",
-  category: "Frontend Development",
-  resources: [
-    { url: "https://www.w3schools.com/html/", type: "Free" },
-    { url: "https://www.udemy.com/course/html-and-css-for-beginners-crash-course-learn-fast-easy/", type: "Paid" }
-  ]
 },
+// Removed duplicate 'HTML & CSS Fundamentals' from Frontend Development
 {
   title: "JavaScript Basics",
   description: "Understand JavaScript syntax, variables, functions, and DOM manipulation.",
@@ -414,15 +407,7 @@ const courses = [{
     { url: "https://www.udemy.com/course/the-complete-javascript-course/", type: "Paid" }
   ]
 },
-{
-  title: "Responsive Web Design",
-  description: "Make websites adapt seamlessly to different devices and screen sizes.",
-  category: "Frontend Development",
-  resources: [
-    { url: "https://www.freecodecamp.org/learn/2022/responsive-web-design/", type: "Free" },
-    { url: "https://www.udemy.com/course/responsive-web-design-tutorial-course-html5-css3-bootstrap/", type: "Paid" }
-  ]
-},
+// Removed duplicate 'Responsive Web Design' from Frontend Development
 {
   title: "React.js Fundamentals",
   description: "Learn the basics of building interactive UIs with React.",
@@ -450,15 +435,8 @@ const courses = [{
     { url: "https://www.udemy.com/course/tailwind-css-from-scratch/", type: "Paid" }
   ]
 },
+// Removed duplicate 'Version Control with Git' from Frontend Development
 {
-  title: "Version Control with Git",
-  description: "Learn how to use Git for tracking changes and collaborating on projects.",
-  category: "Frontend Development",
-  resources: [
-    { url: "https://git-scm.com/docs", type: "Free" },
-    { url: "https://www.udemy.com/course/git-complete/", type: "Paid" }
-  ]
-},{
   title: "Node.js Basics",
   description: "Learn server-side JavaScript development with Node.js.",
   category: "Backend Development",
@@ -1237,15 +1215,7 @@ const courses = [{
     { url: "https://www.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/", type: "Paid" }
   ]
 },
-{
-  title: "Python for Data Science",
-  description: "Use Python libraries like Pandas and NumPy for data analysis.",
-  category: "Python Developer",
-  resources: [
-    { url: "https://www.datacamp.com/courses/intro-to-python-for-data-science", type: "Free" },
-    { url: "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/", type: "Paid" }
-  ]
-},
+// Removed duplicate 'Python for Data Science' from Python Developer
 {
   title: "Automating Tasks with Python",
   description: "Write Python scripts to automate everyday tasks.",
