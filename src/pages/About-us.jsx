@@ -38,13 +38,13 @@ const AboutUs = () => {
                     <div className="member-card">
                        <h3>Shrawani Mirashe</h3>
                          <div className="social-links">
-                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <a href=" https://github.com/Shrawani290" target="_blank">
                            <Github size={20} />
                            </a>
-                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                            <a href="https://www.linkedin.com/in/shrawani-mirashe-a1430228b" target="_blank">
                            <Linkedin size={20} />
                            </a>
-                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                            <a href="https://peerlist.io/shrawani29" target="_blank">
                            <ExternalLink size={20} />
                             </a>
                          </div>
@@ -68,13 +68,13 @@ const AboutUs = () => {
                     <div className="member-card">
                        <h3>Anshuman Morey</h3>
                          <div className="social-links">
-                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <a href="https://github.com/ANSHUMANMOREY7 " target="_blank">
                            <Github size={20} />
                            </a>
-                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                            <a href="https://www.linkedin.com/in/anshuman-morey/" target="_blank">
                            <Linkedin size={20} />
                            </a>
-                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                            <a href="https://peerlist.io/anshumxnn_27" target="_blank">
                            <ExternalLink size={20} />
                             </a>
                          </div>
@@ -82,7 +82,7 @@ const AboutUs = () => {
 
 
                       <div className="member-card">
-                       <h3>Varad</h3>
+                       <h3>Varad Kalme</h3>
                          <div className="social-links">
                            <a href="https://github.com/kalmevarad" target="_blank">
                            <Github size={20} />
