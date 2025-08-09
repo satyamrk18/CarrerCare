@@ -1,4 +1,4 @@
-import react from "react";
+import react, { use } from "react";
 import "./resume.css";
 import Navbar from "./../components/navbar.jsx";
 import Heading from "../components/heading.jsx";
@@ -16,6 +16,10 @@ const resume = () => {
   const [project2, setPorject2] = useState("");
   const [aim1, setAim1] = useState("");
   const [aim2, setAim2] = useState("");
+  const [impact1, setImpact1] = useState("");
+  const [impact2, setImpact2] = useState("");
+  const [textTag1, settextTag1] = useState("");
+  const [textTag2, settextTag2] = useState("");
   return (
     <div>
       <Navbar />
@@ -53,6 +57,20 @@ const resume = () => {
           />
           <Input
             type="text"
+            heading="Impact"
+            onChange={(e) => {
+              setImpact1(e.target.value);
+            }}
+          />
+          <Input
+            type="text"
+            heading="Text Tag"
+            onChange={(e) => {
+              settextTag1(e.target.value);
+            }}
+          />
+          <Input
+            type="text"
             heading="2nd project name"
             onChange={(e) => {
               setPorject2(e.target.value);
@@ -64,6 +82,18 @@ const resume = () => {
             onChange={(e) => {
               setAim2(e.target.value);
             }}
+          />
+          <Input
+            type="text"
+            heading="Impact"
+            onChange={(e) => {
+              setImpact2(e.target.value);
+            }}
+          />
+             <Input
+            type="text"
+            heading="text tag"
+            onChange={(e)=>{settextTag2(e.target.value)}}
           />
         </div>
         {/* actual resume */}
@@ -162,12 +192,20 @@ const resume = () => {
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
-                impact=" Temporibus iste itaque, ab culpa velit iure
+                impact={
+                  impact1 != ""
+                    ? impact1
+                    : `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
-              sequi dolores quos minima natus aspernatur."
-                textTag=" Temporibus iste itaque, ab culpa velit iure
+              sequi dolores quos minima natus aspernatur.`
+                }
+                textTag={
+                  textTag1 != ""
+                    ? textTag1
+                    : `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
-              sequi dolores quos minima natus aspernatur."
+              sequi dolores quos minima natus aspernatur.`
+                }
               />
               {/* project-2 */}
               <Projects
@@ -179,12 +217,20 @@ const resume = () => {
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
-                impact=" Temporibus iste itaque, ab culpa velit iure
+                impact={
+                  impact2 != ""
+                    ? impact2
+                    : `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
-              sequi dolores quos minima natus aspernatur."
-                textTag=" Temporibus iste itaque, ab culpa velit iure
+              sequi dolores quos minima natus aspernatur.`
+                }
+                textTag={
+                  textTag2 != ""
+                    ? textTag2
+                    : `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
-              sequi dolores quos minima natus aspernatur."
+              sequi dolores quos minima natus aspernatur.`
+                }
               />
             </div>
 

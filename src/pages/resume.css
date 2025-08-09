@@ -82,6 +82,9 @@ p {
   width: 95%;
   padding: 10px;
   margin-left: 15px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
 }
 .certification-hobbies {
   display: flex;
