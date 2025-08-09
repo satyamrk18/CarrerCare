@@ -20,6 +20,16 @@ const resume = () => {
   const [impact2, setImpact2] = useState("");
   const [textTag1, settextTag1] = useState("");
   const [textTag2, settextTag2] = useState("");
+  const [certification, setCertification] = useState({
+    one: "",
+    two: "",
+    three: "",
+  });
+  const [hobbie, setHobbies] = useState({
+    one: "",
+    teo:"",
+    three:"",
+  })
   return (
     <div>
       <Navbar />
@@ -90,10 +100,51 @@ const resume = () => {
               setImpact2(e.target.value);
             }}
           />
-             <Input
+          <Input
             type="text"
             heading="text tag"
-            onChange={(e)=>{settextTag2(e.target.value)}}
+            onChange={(e) => {
+              settextTag2(e.target.value);
+            }}
+          />
+
+          {/* certification  */}
+          <Input
+            type="text"
+            heading="Certification 1"
+            onChange={(e) =>
+              setCertification({ ...certification, one: e.target.value })
+            }
+          />
+          <Input
+            type="text"
+            heading="Certification 2"
+            onChange={(e) =>
+              setCertification({ ...certification, two: e.target.value })
+            }
+          />
+          <Input
+            type="text"
+            heading="Certification 3"
+            onChange={(e) =>
+              setCertification({ ...certification, three: e.target.value })
+            }
+          />
+          {/* hobbies */}
+          <Input 
+          type="text"
+          heading="Hobbies 1"
+          onChange={(e)=>setHobbies({...hobbie,one:e.target.value})}
+          />
+           <Input 
+          type="text"
+          heading="Hobbies 2"
+          onChange={(e)=>setHobbies({...hobbie,two:e.target.value})}
+          />
+           <Input 
+          type="text"
+          heading="Hobbies 3"
+          onChange={(e)=>setHobbies({...hobbie,three:e.target.value})}
           />
         </div>
         {/* actual resume */}
@@ -164,14 +215,13 @@ const resume = () => {
 
           {/* main detail */}
           <div className="main-detail">
-            <Heading title={name != "" ? name : "Satyam katkade"} />
+            <Heading title={name || `satyam katkade`} />
             {/* summary */}
             <div className="Summary">
               <Heading title="Summary" />
               <p>
-                {summary != ""
-                  ? summary
-                  : ` Temporibus iste itaque, ab culpa velit iure
+                {summary ||
+                  ` Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
@@ -186,23 +236,20 @@ const resume = () => {
               <Projects
                 projectName={project1 != "" ? `1] ${project1}` : `1] project 1`}
                 aim={
-                  aim1 != ""
-                    ? aim1
-                    : `Temporibus iste itaque, ab culpa velit iure
+                  aim1 ||
+                  `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
                 impact={
-                  impact1 != ""
-                    ? impact1
-                    : `Temporibus iste itaque, ab culpa velit iure
+                  impact1 ||
+                  `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
                 textTag={
-                  textTag1 != ""
-                    ? textTag1
-                    : `Temporibus iste itaque, ab culpa velit iure
+                  textTag1 ||
+                  `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
@@ -211,23 +258,20 @@ const resume = () => {
               <Projects
                 projectName={project2 != "" ? `2] ${project2}` : `2] project 2`}
                 aim={
-                  aim2 != ""
-                    ? aim2
-                    : ` Temporibus iste itaque, ab culpa velit iure     
+                  aim2 ||
+                  ` Temporibus iste itaque, ab culpa velit iure     
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
                 impact={
-                  impact2 != ""
-                    ? impact2
-                    : `Temporibus iste itaque, ab culpa velit iure
+                  impact2 ||
+                  `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
                 textTag={
-                  textTag2 != ""
-                    ? textTag2
-                    : `Temporibus iste itaque, ab culpa velit iure
+                  textTag2 ||
+                  `Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
               sequi dolores quos minima natus aspernatur.`
                 }
@@ -238,15 +282,15 @@ const resume = () => {
             <div className="certification-hobbies">
               <Certification
                 title="Certification"
-                one="web dev"
-                two="app dev"
-                three="cloud computing"
+                one={certification.one || "Web Dev"}
+                two={certification.two || "App dev"}
+                three={certification.three || "cloud computing"}
               />
               <Certification
                 title="Hobbies"
-                one="cricket"
-                two="football"
-                three="gamming"
+                one={hobbie.one || "developemnt"}
+                two={hobbie.two || "cricket"}
+                three={hobbie.three || "gamming"}
               />
             </div>
           </div>
