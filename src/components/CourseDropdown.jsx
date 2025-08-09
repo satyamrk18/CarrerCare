@@ -8,8 +8,24 @@ const categories = [
   "ML",
   "IoT",
   "Data Science",
-  "Java Developer"
-  
+  "Java Developer",
+  "Frontend Development",
+  "Backend Development",
+  "Full Stack Development",
+  "iOS Development",
+  "Cybersecurity",
+  "Cloud Computing",
+  "DevOps",
+  "Blockchain Development",
+  "Game Development",
+  "AR/VR Development",
+  "UI/UX Design",
+  "Database Administration",
+  "Software Testing / QA",
+  "Python Developer",
+  "C++ Developer",
+  "Data Engineer",
+  "Product Management"
 ];
 
 const CourseDropdown = ({ value, onChange }) => (
