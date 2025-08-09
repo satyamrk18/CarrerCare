@@ -157,7 +157,61 @@ const courses = [{
     { url: "https://www.edx.org/course/artificial-intelligence-ai", type: "Free" },
     { url: "https://www.udemy.com/course/artificial-intelligence-real-world-projects/", type: "Paid" }
   ]
+},{
+  title: "Machine Learning Fundamentals",
+  description: "Learn the core concepts of machine learning, including supervised and unsupervised learning.",
+  category: "ML",
+  resources: [
+    { url: "https://www.coursera.org/learn/machine-learning", type: "Free" },
+    { url: "https://www.udemy.com/course/machinelearning/", type: "Paid" }
+  ]
+},
+{
+  title: "Supervised Learning Techniques",
+  description: "Dive deeper into regression, classification, and model evaluation methods.",
+  category: "ML",
+  resources: [
+    { url: "https://scikit-learn.org/stable/supervised_learning.html", type: "Free" },
+    { url: "https://www.udemy.com/course/supervised-machine-learning/", type: "Paid" }
+  ]
+},
+{
+  title: "Unsupervised Learning and Clustering",
+  description: "Explore clustering methods like K-Means, DBSCAN, and dimensionality reduction techniques.",
+  category: "ML",
+  resources: [
+    { url: "https://scikit-learn.org/stable/unsupervised_learning.html", type: "Free" },
+    { url: "https://www.udemy.com/course/unsupervised-machine-learning/", type: "Paid" }
+  ]
+},
+{
+  title: "Model Deployment and MLOps",
+  description: "Learn how to deploy ML models into production with Docker, Flask, and cloud services.",
+  category: "ML",
+  resources: [
+    { url: "https://www.tensorflow.org/tfx/tutorials", type: "Free" },
+    { url: "https://www.udemy.com/course/mlops-machine-learning-operations/", type: "Paid" }
+  ]
+},
+{
+  title: "Feature Engineering",
+  description: "Understand techniques for extracting, selecting, and transforming features to improve model performance.",
+  category: "ML",
+  resources: [
+    { url: "https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/", type: "Free" },
+    { url: "https://www.udemy.com/course/feature-engineering-for-machine-learning/", type: "Paid" }
+  ]
+},
+{
+  title: "ML Project Case Studies",
+  description: "Work on real-world ML problems and datasets to gain practical experience.",
+  category: "ML",
+  resources: [
+    { url: "https://www.kaggle.com/learn/intro-to-machine-learning", type: "Free" },
+    { url: "https://www.udemy.com/course/real-world-machine-learning-projects/", type: "Paid" }
+  ]
 }
+
 
 
 
