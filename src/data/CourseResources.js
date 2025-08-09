@@ -1263,7 +1263,69 @@ const courses = [{
     { url: "https://realpython.com/python3-object-oriented-programming/", type: "Free" },
     { url: "https://www.udemy.com/course/python-object-oriented-programming/", type: "Paid" }
   ]
+},{
+  title: "C++ Fundamentals",
+  description: "Learn the basics of C++ programming language and syntax.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://www.learncpp.com/", type: "Free" },
+    { url: "https://www.udemy.com/course/beginning-c-plus-plus-programming/", type: "Paid" }
+  ]
+},
+{
+  title: "Object-Oriented Programming in C++",
+  description: "Master classes, objects, inheritance, and polymorphism in C++.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://www.cplusplus.com/doc/tutorial/classes/", type: "Free" },
+    { url: "https://www.udemy.com/course/cplusplus-oop/", type: "Paid" }
+  ]
+},
+{
+  title: "Data Structures and Algorithms in C++",
+  description: "Implement common data structures and algorithms using C++.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://www.geeksforgeeks.org/data-structures/", type: "Free" },
+    { url: "https://www.udemy.com/course/dsa-in-cplusplus/", type: "Paid" }
+  ]
+},
+{
+  title: "Advanced C++ Programming",
+  description: "Learn about templates, STL, exceptions, and advanced topics.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://isocpp.org/wiki/faq", type: "Free" },
+    { url: "https://www.udemy.com/course/advanced-cplusplus/", type: "Paid" }
+  ]
+},
+{
+  title: "C++ for Game Development",
+  description: "Use C++ to build games and understand game engine architecture.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://www.udemy.com/course/cplusplus-for-game-development/", type: "Paid" }
+  ]
+},
+{
+  title: "Memory Management in C++",
+  description: "Understand pointers, dynamic allocation, and memory handling.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://www.cplusplus.com/doc/tutorial/pointers/", type: "Free" },
+    { url: "https://www.udemy.com/course/cplusplus-memory-management/", type: "Paid" }
+  ]
+},
+{
+  title: "Multithreading in C++",
+  description: "Learn concurrent programming and multithreading concepts.",
+  category: "C++ Developer",
+  resources: [
+    { url: "https://www.cplusplus.com/reference/thread/thread/", type: "Free" },
+    { url: "https://www.udemy.com/course/multithreading-in-cplusplus/", type: "Paid" }
+  ]
 }
+
 
 
 
