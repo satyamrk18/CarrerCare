@@ -1015,7 +1015,70 @@ const courses = [{
     { url: "https://learn.unity.com/tutorials/vr-game-development", type: "Free" },
     { url: "https://www.udemy.com/course/vr-game-development/", type: "Paid" }
   ]
+},{
+  title: "Introduction to UI/UX Design",
+  description: "Learn the basics of user interface and user experience design principles.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://www.coursera.org/learn/ui-ux-design", type: "Free" },
+    { url: "https://www.udemy.com/course/ui-ux-web-design-using-adobe-xd/", type: "Paid" }
+  ]
+},
+{
+  title: "User Research and Usability Testing",
+  description: "Understand user needs and evaluate design effectiveness through testing.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://www.nngroup.com/articles/usability-testing-101/", type: "Free" },
+    { url: "https://www.udemy.com/course/user-research/", type: "Paid" }
+  ]
+},
+{
+  title: "Wireframing and Prototyping",
+  description: "Create wireframes and prototypes using popular tools like Figma and Sketch.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://www.figma.com/resources/learn-design/", type: "Free" },
+    { url: "https://www.udemy.com/course/figma-ui-ux-design-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Visual Design Fundamentals",
+  description: "Learn about typography, color theory, and visual hierarchy.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://www.interaction-design.org/courses/visual-design", type: "Free" },
+    { url: "https://www.udemy.com/course/visual-design-fundamentals/", type: "Paid" }
+  ]
+},
+{
+  title: "Design Systems and Style Guides",
+  description: "Create consistent and scalable design systems.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://www.invisionapp.com/inside-design/design-systems-guide/", type: "Free" },
+    { url: "https://www.udemy.com/course/design-systems/", type: "Paid" }
+  ]
+},
+{
+  title: "Accessibility in UI/UX",
+  description: "Design inclusive products accessible to all users.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://www.w3.org/WAI/fundamentals/accessibility-intro/", type: "Free" },
+    { url: "https://www.udemy.com/course/web-accessibility-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Mobile App Design",
+  description: "Design user-friendly mobile interfaces for iOS and Android.",
+  category: "UI/UX Design",
+  resources: [
+    { url: "https://material.io/design", type: "Free" },
+    { url: "https://www.udemy.com/course/mobile-ui-ux-design/", type: "Paid" }
+  ]
 }
+
 
 
 
