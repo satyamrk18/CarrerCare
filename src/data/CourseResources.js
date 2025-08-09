@@ -1386,7 +1386,70 @@ const courses = [{
     { url: "https://airflow.apache.org/docs/", type: "Free" },
     { url: "https://www.udemy.com/course/airflow-the-complete-hands-on-course/", type: "Paid" }
   ]
+},{
+  title: "Introduction to Product Management",
+  description: "Learn the basics of product management and lifecycle.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.coursera.org/learn/product-management", type: "Free" },
+    { url: "https://www.udemy.com/course/product-management-101/", type: "Paid" }
+  ]
+},
+{
+  title: "Agile Product Management",
+  description: "Understand agile principles and apply them in product management.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.scrum.org/resources/what-is-product-management", type: "Free" },
+    { url: "https://www.udemy.com/course/agile-product-management/", type: "Paid" }
+  ]
+},
+{
+  title: "Roadmapping and Prioritization",
+  description: "Learn to create product roadmaps and prioritize features effectively.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.productplan.com/roadmap-guide/", type: "Free" },
+    { url: "https://www.udemy.com/course/product-roadmap/", type: "Paid" }
+  ]
+},
+{
+  title: "User Story Mapping",
+  description: "Create user story maps to better understand user needs and workflow.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.jpattonassociates.com/user-story-mapping/", type: "Free" },
+    { url: "https://www.udemy.com/course/user-story-mapping/", type: "Paid" }
+  ]
+},
+{
+  title: "Product Metrics and Analytics",
+  description: "Measure product success using key performance indicators and analytics.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.intercom.com/resources/guides/product-metrics", type: "Free" },
+    { url: "https://www.udemy.com/course/product-management-analytics/", type: "Paid" }
+  ]
+},
+{
+  title: "Go-to-Market Strategy",
+  description: "Plan and execute successful product launches and marketing strategies.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.productplan.com/learn/go-to-market-strategy/", type: "Free" },
+    { url: "https://www.udemy.com/course/go-to-market-strategy/", type: "Paid" }
+  ]
+},
+{
+  title: "Leadership and Stakeholder Management",
+  description: "Develop skills to manage teams and stakeholders effectively.",
+  category: "Product Management",
+  resources: [
+    { url: "https://www.mindtools.com/pages/article/newLDR_74.htm", type: "Free" },
+    { url: "https://www.udemy.com/course/leadership-stakeholder-management/", type: "Paid" }
+  ]
 }
+
 
 
 
