@@ -1,14 +1,5 @@
 const courses = [
   {
-    title: "React for Beginners",
-    description: "Learn the basics of React, including components, state, and props.",
-    category: "Web Development",
-    resources: [
-      { url: "https://react.dev/learn", type: "Free" },
-      { url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", type: "Paid" }
-    ]
-  },
-  {
   title: "Android Fundamentals",
   description: "Start building Android apps with Java and XML.",
   category: "Android Development",
@@ -229,15 +220,6 @@ const courses = [
   ]
 }, // Free
 
-{
-  title: "React for Beginners",
-  description: "Get started with React, one of the most popular JavaScript frameworks for building modern UIs.",
-  category: "Frontend Development",
-  resources: [
-    { url: "https://react.dev/learn", type: "Free" },
-    { url: "https://www.codecademy.com/learn/react-101", type: "Paid" }
-  ]
-}, // Mixed (First link Free, Second Paid)
 
 {
   title: "Advanced CSS and Sass",
