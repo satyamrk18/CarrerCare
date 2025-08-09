@@ -1324,7 +1324,70 @@ const courses = [{
     { url: "https://www.cplusplus.com/reference/thread/thread/", type: "Free" },
     { url: "https://www.udemy.com/course/multithreading-in-cplusplus/", type: "Paid" }
   ]
+},{
+  title: "Data Engineering Fundamentals",
+  description: "Learn core concepts of data engineering, pipelines, and ETL processes.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://www.coursera.org/learn/data-engineering-foundations", type: "Free" },
+    { url: "https://www.udemy.com/course/data-engineering/", type: "Paid" }
+  ]
+},
+{
+  title: "Big Data and Hadoop",
+  description: "Understand big data ecosystem and work with Hadoop framework.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://hadoop.apache.org/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/hadoop-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Apache Spark Essentials",
+  description: "Learn distributed data processing with Apache Spark.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://spark.apache.org/docs/latest/", type: "Free" },
+    { url: "https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/", type: "Paid" }
+  ]
+},
+{
+  title: "Data Warehousing Concepts",
+  description: "Explore data warehousing architecture and design patterns.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://www.coursera.org/learn/dwdesign", type: "Free" },
+    { url: "https://www.udemy.com/course/data-warehousing/", type: "Paid" }
+  ]
+},
+{
+  title: "ETL Development with Python",
+  description: "Build ETL pipelines using Python and related libraries.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://realpython.com/etl-data-pipeline-python/", type: "Free" },
+    { url: "https://www.udemy.com/course/etl-with-python/", type: "Paid" }
+  ]
+},
+{
+  title: "Cloud Data Engineering with GCP",
+  description: "Learn cloud-based data engineering using Google Cloud Platform.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://cloud.google.com/training/data-engineering", type: "Free" },
+    { url: "https://www.udemy.com/course/google-cloud-platform-data-engineer/", type: "Paid" }
+  ]
+},
+{
+  title: "Data Pipeline Automation",
+  description: "Automate data workflows with Apache Airflow.",
+  category: "Data Engineer",
+  resources: [
+    { url: "https://airflow.apache.org/docs/", type: "Free" },
+    { url: "https://www.udemy.com/course/airflow-the-complete-hands-on-course/", type: "Paid" }
+  ]
 }
+
 
 
 
