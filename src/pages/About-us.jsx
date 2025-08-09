@@ -35,6 +35,98 @@ const AboutUs = () => {
                          </div>
                    </div>
 
+                    <div className="member-card">
+                       <h3>Shrawani Mirashe</h3>
+                         <div className="social-links">
+                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <Github size={20} />
+                           </a>
+                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                           <Linkedin size={20} />
+                           </a>
+                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                           <ExternalLink size={20} />
+                            </a>
+                         </div>
+                   </div>
+
+                    <div className="member-card">
+                       <h3>Satyam Katkade</h3>
+                         <div className="social-links">
+                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <Github size={20} />
+                           </a>
+                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                           <Linkedin size={20} />
+                           </a>
+                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                           <ExternalLink size={20} />
+                            </a>
+                         </div>
+                   </div>
+
+                    <div className="member-card">
+                       <h3>Anshuman Morey</h3>
+                         <div className="social-links">
+                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <Github size={20} />
+                           </a>
+                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                           <Linkedin size={20} />
+                           </a>
+                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                           <ExternalLink size={20} />
+                            </a>
+                         </div>
+                   </div>
+
+
+                      <div className="member-card">
+                       <h3>Varad</h3>
+                         <div className="social-links">
+                           <a href="https://github.com/kalmevarad" target="_blank">
+                           <Github size={20} />
+                           </a>
+                            <a href="https://www.linkedin.com/in/varad-kalme-094073375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                           <Linkedin size={20} />
+                           </a>
+                            <a href="https://peerlist.io/kalmevarad" target="_blank">
+                           <ExternalLink size={20} />
+                            </a>
+                         </div>
+                   </div>
+
+                   <div className="member-card">
+                       <h3>Bhushan</h3>
+                         <div className="social-links">
+                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <Github size={20} />
+                           </a>
+                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                           <Linkedin size={20} />
+                           </a>
+                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                           <ExternalLink size={20} />
+                            </a>
+                         </div>
+                   </div>
+
+
+                  <div className="member-card">
+                       <h3>Vinod Nangare</h3>
+                         <div className="social-links">
+                           <a href="https://github.com/TanishkaShivarkar" target="_blank">
+                           <Github size={20} />
+                           </a>
+                            <a href="https://www.linkedin.com/in/tanishka-shivarkar-566351375/" target="_blank">
+                           <Linkedin size={20} />
+                           </a>
+                            <a href="https://peerlist.io/tanishka_3112" target="_blank">
+                           <ExternalLink size={20} />
+                            </a>
+                         </div>
+                   </div>
+
 
                 </div>
              </div>
