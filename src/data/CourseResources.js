@@ -1139,7 +1139,70 @@ const courses = [{
     { url: "https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/", type: "Free" },
     { url: "https://www.udemy.com/course/database-backup-and-recovery/", type: "Paid" }
   ]
+},{
+  title: "Software Testing Fundamentals",
+  description: "Learn basic concepts and types of software testing.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://www.guru99.com/software-testing.html", type: "Free" },
+    { url: "https://www.udemy.com/course/software-testing/", type: "Paid" }
+  ]
+},
+{
+  title: "Manual Testing Basics",
+  description: "Understand manual testing techniques and test case writing.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://www.softwaretestinghelp.com/manual-testing-tutorial-1/", type: "Free" },
+    { url: "https://www.udemy.com/course/manual-testing/", type: "Paid" }
+  ]
+},
+{
+  title: "Selenium WebDriver Automation",
+  description: "Automate web testing using Selenium WebDriver.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://www.selenium.dev/documentation/en/webdriver/", type: "Free" },
+    { url: "https://www.udemy.com/course/selenium-webdriver-with-java-basics-to-advanced/", type: "Paid" }
+  ]
+},
+{
+  title: "API Testing with Postman",
+  description: "Learn to test APIs using Postman and Newman.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://learning.postman.com/docs/getting-started/introduction/", type: "Free" },
+    { url: "https://www.udemy.com/course/postman-the-complete-guide/", type: "Paid" }
+  ]
+},
+{
+  title: "Performance Testing with JMeter",
+  description: "Test application performance and load using Apache JMeter.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://jmeter.apache.org/usermanual/get-started.html", type: "Free" },
+    { url: "https://www.udemy.com/course/apache-jmeter-performance-testing/", type: "Paid" }
+  ]
+},
+{
+  title: "Test Automation Frameworks",
+  description: "Build scalable and maintainable test automation frameworks.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://www.guru99.com/test-automation-framework.html", type: "Free" },
+    { url: "https://www.udemy.com/course/test-automation-frameworks/", type: "Paid" }
+  ]
+},
+{
+  title: "Agile Testing & Scrum",
+  description: "Learn agile testing methodologies and Scrum practices.",
+  category: "Software Testing / QA",
+  resources: [
+    { url: "https://www.scrum.org/resources/what-is-agile-testing", type: "Free" },
+    { url: "https://www.udemy.com/course/agile-testing-scrum/", type: "Paid" }
+  ]
 }
+
 
 
 
