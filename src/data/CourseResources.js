@@ -51,7 +51,61 @@ const courses = [{
     { url: "https://react.dev/learn", type: "Free" },
     { url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", type: "Paid" }
   ]
+},{
+  title: "Android Development for Beginners",
+  description: "Learn to build Android apps using Java and Android Studio, starting from the basics.",
+  category: "Android Development",
+  resources: [
+    { url: "https://developer.android.com/courses/android-basics-compose/course", type: "Free" },
+    { url: "https://www.udemy.com/course/android-app-development-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Kotlin for Android",
+  description: "Master Kotlin, the preferred language for modern Android development.",
+  category: "Android Development",
+  resources: [
+    { url: "https://developer.android.com/kotlin", type: "Free" },
+    { url: "https://www.udemy.com/course/kotlin-android-developer-masterclass/", type: "Paid" }
+  ]
+},
+{
+  title: "Jetpack Compose Fundamentals",
+  description: "Learn Jetpack Compose, Android's modern toolkit for building native UI.",
+  category: "Android Development",
+  resources: [
+    { url: "https://developer.android.com/jetpack/compose/tutorial", type: "Free" },
+    { url: "https://www.udemy.com/course/jetpack-compose-android-development/", type: "Paid" }
+  ]
+},
+{
+  title: "Android App Architecture",
+  description: "Understand MVVM architecture, LiveData, ViewModel, and Room database in Android apps.",
+  category: "Android Development",
+  resources: [
+    { url: "https://developer.android.com/jetpack/guide", type: "Free" },
+    { url: "https://www.udemy.com/course/android-architecture-componentsmvvm-viewmodel-livedata-room/", type: "Paid" }
+  ]
+},
+{
+  title: "Publishing on Google Play Store",
+  description: "Learn how to prepare, test, and publish your Android app on Google Play.",
+  category: "Android Development",
+  resources: [
+    { url: "https://developer.android.com/distribute", type: "Free" },
+    { url: "https://www.udemy.com/course/publish-your-android-app-on-google-play-store/", type: "Paid" }
+  ]
+},
+{
+  title: "Advanced Android Development",
+  description: "Explore advanced Android features like background services, sensors, and APIs.",
+  category: "Android Development",
+  resources: [
+    { url: "https://developer.android.com/guide", type: "Free" },
+    { url: "https://www.udemy.com/course/advanced-android-app-development/", type: "Paid" }
+  ]
 }
+
 
 
 
