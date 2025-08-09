@@ -706,7 +706,70 @@ const courses = [{
     { url: "https://www.offsec.com/courses/pen-200/", type: "Paid" },
     { url: "https://www.sans.org/cyber-security-courses/advanced-penetration-testing-exploits-ethical-hacking/", type: "Paid" }
   ]
+},{
+  title: "Introduction to Cloud Computing",
+  description: "Learn the basics of cloud computing, including types of cloud services and deployment models.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://www.ibm.com/topics/cloud-computing", type: "Free" },
+    { url: "https://www.udemy.com/course/introduction-to-cloud-computing-on-amazon-aws-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "AWS Certified Solutions Architect - Associate",
+  description: "Prepare for AWS certification and learn to design scalable systems.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://aws.amazon.com/training/learn-about/cloud-practitioner/", type: "Free" },
+    { url: "https://www.udemy.com/course/aws-certified-solutions-architect-associate/", type: "Paid" }
+  ]
+},
+{
+  title: "Microsoft Azure Fundamentals",
+  description: "Understand Azure services, pricing, and deployment models.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals/", type: "Free" },
+    { url: "https://www.udemy.com/course/azure-fundamentals/", type: "Paid" }
+  ]
+},
+{
+  title: "Google Cloud Platform (GCP) Essentials",
+  description: "Learn GCP services and how to deploy applications in the cloud.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://cloud.google.com/training", type: "Free" },
+    { url: "https://www.udemy.com/course/gcp-google-cloud-platform-certification-training/", type: "Paid" }
+  ]
+},
+{
+  title: "Cloud Security Fundamentals",
+  description: "Understand cloud security risks and best practices to secure infrastructure.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://cloudsecurityalliance.org/", type: "Free" },
+    { url: "https://www.udemy.com/course/cloud-security-fundamentals/", type: "Paid" }
+  ]
+},
+{
+  title: "DevOps on the Cloud",
+  description: "Integrate DevOps practices with AWS, Azure, and GCP.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://aws.amazon.com/devops/", type: "Free" },
+    { url: "https://www.udemy.com/course/devops-cloud/", type: "Paid" }
+  ]
+},
+{
+  title: "Serverless Computing",
+  description: "Learn serverless architecture using AWS Lambda, Azure Functions, and Google Cloud Functions.",
+  category: "Cloud Computing",
+  resources: [
+    { url: "https://aws.amazon.com/serverless/", type: "Free" },
+    { url: "https://www.udemy.com/course/serverless-framework/", type: "Paid" }
+  ]
 }
+
 
 
 
