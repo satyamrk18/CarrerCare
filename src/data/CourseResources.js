@@ -1201,7 +1201,70 @@ const courses = [{
     { url: "https://www.scrum.org/resources/what-is-agile-testing", type: "Free" },
     { url: "https://www.udemy.com/course/agile-testing-scrum/", type: "Paid" }
   ]
+},{
+  title: "Python for Beginners",
+  description: "Learn Python programming basics and syntax.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://www.learnpython.org/", type: "Free" },
+    { url: "https://www.udemy.com/course/complete-python-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Python Data Structures",
+  description: "Master lists, dictionaries, sets, and tuples in Python.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://docs.python.org/3/tutorial/datastructures.html", type: "Free" },
+    { url: "https://www.udemy.com/course/python-data-structures/", type: "Paid" }
+  ]
+},
+{
+  title: "Web Development with Django",
+  description: "Build web applications using the Django framework.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://docs.djangoproject.com/en/stable/intro/tutorial01/", type: "Free" },
+    { url: "https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Flask Web Development",
+  description: "Learn to build lightweight web apps with Flask.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://flask.palletsprojects.com/en/2.2.x/tutorial/", type: "Free" },
+    { url: "https://www.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/", type: "Paid" }
+  ]
+},
+{
+  title: "Python for Data Science",
+  description: "Use Python libraries like Pandas and NumPy for data analysis.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://www.datacamp.com/courses/intro-to-python-for-data-science", type: "Free" },
+    { url: "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/", type: "Paid" }
+  ]
+},
+{
+  title: "Automating Tasks with Python",
+  description: "Write Python scripts to automate everyday tasks.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://automatetheboringstuff.com/", type: "Free" },
+    { url: "https://www.udemy.com/course/automate/", type: "Paid" }
+  ]
+},
+{
+  title: "Python Object-Oriented Programming",
+  description: "Understand OOP concepts and apply them in Python.",
+  category: "Python Developer",
+  resources: [
+    { url: "https://realpython.com/python3-object-oriented-programming/", type: "Free" },
+    { url: "https://www.udemy.com/course/python-object-oriented-programming/", type: "Paid" }
+  ]
 }
+
 
 
 
