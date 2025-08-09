@@ -210,7 +210,70 @@ const courses = [{
     { url: "https://www.kaggle.com/learn/intro-to-machine-learning", type: "Free" },
     { url: "https://www.udemy.com/course/real-world-machine-learning-projects/", type: "Paid" }
   ]
+},{
+  title: "Introduction to IoT",
+  description: "Understand the fundamentals of the Internet of Things, its architecture, and use cases.",
+  category: "IoT",
+  resources: [
+    { url: "https://www.coursera.org/learn/iot", type: "Free" },
+    { url: "https://www.udemy.com/course/introduction-to-internet-of-things-iot/", type: "Paid" }
+  ]
+},
+{
+  title: "IoT with Arduino",
+  description: "Learn how to build IoT projects using Arduino microcontrollers and sensors.",
+  category: "IoT",
+  resources: [
+    { url: "https://create.arduino.cc/projecthub", type: "Free" },
+    { url: "https://www.udemy.com/course/arduino-step-by-step-more-than-50-hours-complete-course/", type: "Paid" }
+  ]
+},
+{
+  title: "IoT with Raspberry Pi",
+  description: "Build IoT applications using Raspberry Pi, Python, and various IoT sensors.",
+  category: "IoT",
+  resources: [
+    { url: "https://projects.raspberrypi.org/en/projects", type: "Free" },
+    { url: "https://www.udemy.com/course/raspberry-pi-full-stack/", type: "Paid" }
+  ]
+},
+{
+  title: "IoT Communication Protocols",
+  description: "Explore protocols like MQTT, CoAP, and HTTP used in IoT systems.",
+  category: "IoT",
+  resources: [
+    { url: "https://mqtt.org/getting-started/", type: "Free" },
+    { url: "https://www.udemy.com/course/mqtt-essentials/", type: "Paid" }
+  ]
+},
+{
+  title: "IoT Security",
+  description: "Learn the security challenges and solutions in IoT systems.",
+  category: "IoT",
+  resources: [
+    { url: "https://www.coursera.org/learn/iot-security", type: "Free" },
+    { url: "https://www.udemy.com/course/internet-of-things-security-iot-security/", type: "Paid" }
+  ]
+},
+{
+  title: "Industrial IoT",
+  description: "Understand how IoT is transforming industries through automation and data collection.",
+  category: "IoT",
+  resources: [
+    { url: "https://www.ibm.com/topics/iiot", type: "Free" },
+    { url: "https://www.udemy.com/course/industrial-iot-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "IoT Cloud Integration",
+  description: "Learn how to connect IoT devices to AWS, Azure, or Google Cloud.",
+  category: "IoT",
+  resources: [
+    { url: "https://aws.amazon.com/iot-core/getting-started/", type: "Free" },
+    { url: "https://www.udemy.com/course/iot-integration-with-cloud-computing/", type: "Paid" }
+  ]
 }
+
 
 
 
