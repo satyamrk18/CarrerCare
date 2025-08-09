@@ -1215,15 +1215,7 @@ const courses = [{
     { url: "https://www.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/", type: "Paid" }
   ]
 },
-{
-  title: "Python for Data Science",
-  description: "Use Python libraries like Pandas and NumPy for data analysis.",
-  category: "Python Developer",
-  resources: [
-    { url: "https://www.datacamp.com/courses/intro-to-python-for-data-science", type: "Free" },
-    { url: "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/", type: "Paid" }
-  ]
-},
+// Removed duplicate 'Python for Data Science' from Python Developer
 {
   title: "Automating Tasks with Python",
   description: "Write Python scripts to automate everyday tasks.",
