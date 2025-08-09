@@ -166,86 +166,122 @@ const courses = [
     resources: ["https://www.geeksforgeeks.org/data-structures/"]
   },
   {
-  title: "HTML & CSS Basics",
-  description: "Master the core building blocks of web development, including HTML structure and CSS styling.",
-  category: "Frontend Development",
-  resources: ["https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web", "https://www.w3schools.com/html/"]
-}, // Free
+    title: "HTML & CSS Basics",
+    description: "Master the core building blocks of web development, including HTML structure and CSS styling.",
+    category: "Frontend Development",
+    resources: [
+      { url: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web", type: "Free" },
+      { url: "https://www.w3schools.com/html/", type: "Free" }
+    ]
+  }, // Free
 
 {
   title: "JavaScript Fundamentals",
   description: "Learn the essential concepts of JavaScript, the programming language of the web.",
   category: "Frontend Development",
-  resources: ["https://javascript.info/", "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"]
+  resources: [
+    { url: "https://javascript.info/", type: "Free" },
+    { url: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", type: "Free" }
+  ]
 }, // Free
 
 {
   title: "Responsive Web Design",
   description: "Understand how to make web pages look great on all devices using media queries and flexible layouts.",
   category: "Frontend Development",
-  resources: ["https://www.freecodecamp.org/learn/responsive-web-design/", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"]
+  resources: [
+    { url: "https://www.freecodecamp.org/learn/responsive-web-design/", type: "Free" },
+    { url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design", type: "Free" }
+  ]
 }, // Free
 
 {
   title: "React for Beginners",
   description: "Get started with React, one of the most popular JavaScript frameworks for building modern UIs.",
   category: "Frontend Development",
-  resources: ["https://react.dev/learn", "https://www.codecademy.com/learn/react-101"]
+  resources: [
+    { url: "https://react.dev/learn", type: "Free" },
+    { url: "https://www.codecademy.com/learn/react-101", type: "Paid" }
+  ]
 }, // Mixed (First link Free, Second Paid)
 
 {
   title: "Advanced CSS and Sass",
   description: "Enhance your styling skills with advanced CSS techniques and Sass for maintainable code.",
   category: "Frontend Development",
-  resources: ["https://sass-lang.com/guide", "https://css-tricks.com/snippets/css/complete-guide-grid/"]
+  resources: [
+    { url: "https://sass-lang.com/guide", type: "Free" },
+    { url: "https://css-tricks.com/snippets/css/complete-guide-grid/", type: "Free" }
+  ]
 }, // Free
 
 {
   title: "Web Accessibility",
   description: "Learn how to make your websites usable by people of all abilities.",
   category: "Frontend Development",
-  resources: ["https://www.w3.org/WAI/fundamentals/accessibility-intro/", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility"]
+  resources: [
+    { url: "https://www.w3.org/WAI/fundamentals/accessibility-intro/", type: "Free" },
+    { url: "https://developer.mozilla.org/en-US/docs/Learn/Accessibility", type: "Free" }
+  ]
 }, // Free,
 {
   title: "Node.js Fundamentals",
   description: "Learn how to build backend applications using Node.js and understand the basics of server-side JavaScript.",
   category: "Backend Development",
-  resources: ["https://nodejs.dev/en/learn/", "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"]
+  resources: [
+    { url: "https://nodejs.dev/en/learn/", type: "Free" },
+    { url: "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/", type: "Paid" }
+  ]
 }, // Paid
 
 {
   title: "Express.js Crash Course",
   description: "Get started with Express.js, the fast and minimalist web framework for Node.js.",
   category: "Backend Development",
-  resources: ["https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction", "https://www.youtube.com/watch?v=L72fhGm1tfE"]
+  resources: [
+    { url: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction", type: "Free" },
+    { url: "https://www.youtube.com/watch?v=L72fhGm1tfE", type: "Free" }
+  ]
 }, // Free
 
 {
   title: "REST API Development",
   description: "Learn to design and build RESTful APIs using backend technologies.",
   category: "Backend Development",
-  resources: ["https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/", "https://www.udemy.com/course/rest-api-design-the-complete-guide/"]
+  resources: [
+    { url: "https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/", type: "Free" },
+    { url: "https://www.udemy.com/course/rest-api-design-the-complete-guide/", type: "Paid" }
+  ]
 }, // Paid
 
 {
   title: "Databases with MongoDB",
   description: "Master MongoDB for building modern, scalable applications.",
   category: "Backend Development",
-  resources: ["https://www.mongodb.com/docs/manual/tutorial/getting-started/", "https://www.udemy.com/course/mongodb-the-complete-developers-guide/"]
+  resources: [
+    { url: "https://www.mongodb.com/docs/manual/tutorial/getting-started/", type: "Free" },
+    { url: "https://www.udemy.com/course/mongodb-the-complete-developers-guide/", type: "Paid" }
+  ]
 }, // Paid
 
 {
   title: "Authentication & Authorization",
   description: "Understand how to secure backend applications with JWT, OAuth, and other methods.",
   category: "Backend Development",
-  resources: ["https://www.digitalocean.com/community/tutorial_series/oauth-2-0", "https://www.udemy.com/course/nodejs-jwt-authentication-oauth/"]
+  resources: [
+    { url: "https://www.digitalocean.com/community/tutorial_series/oauth-2-0", type: "Free" },
+    { url: "https://www.udemy.com/course/nodejs-jwt-authentication-oauth/", type: "Paid" }
+  ]
 }, // Paid
 
 {
   title: "Backend Deployment",
   description: "Learn how to deploy backend applications to cloud platforms like Heroku, AWS, and Render.",
   category: "Backend Development",
-  resources: ["https://devcenter.heroku.com/articles/getting-started-with-nodejs", "https://www.udemy.com/course/aws-certified-developer-associate/"]
+  resources: [
+    { url: "https://devcenter.heroku.com/articles/getting-started-with-nodejs", type: "Free" },
+    { url: "https://www.udemy.com/course/aws-certified-developer-associate/", type: "Paid" }
+  ]
 } // Paid
 ]
 
