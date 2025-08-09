@@ -449,7 +449,71 @@ const courses = [
     { url: "https://developer.apple.com/documentation/xcode/testing-your-apps-in-simulator", type: "Free" },
     { url: "https://www.udemy.com/course/unit-testing-in-ios-with-xctest/", type: "Paid" }
   ]
+},
+{
+  title: "Introduction to Cybersecurity",
+  description: "Understand the basics of cybersecurity, including threats, vulnerabilities, and defense strategies.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/intro-cybersecurity.html", type: "Free" },
+    { url: "https://www.udemy.com/course/the-complete-cyber-security-course-hackers-exposed/", type: "Paid" }
+  ]
+},
+{
+  title: "Network Security Fundamentals",
+  description: "Learn how to protect networks from cyber threats using firewalls, VPNs, and intrusion detection systems.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.cybrary.it/course/network-security-fundamentals/", type: "Free" },
+    { url: "https://www.udemy.com/course/network-security-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Ethical Hacking",
+  description: "Learn penetration testing techniques to identify and fix vulnerabilities.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.hacker101.com/", type: "Free" },
+    { url: "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/", type: "Paid" }
+  ]
+},
+{
+  title: "Web Application Security",
+  description: "Understand common web vulnerabilities like SQL injection, XSS, and CSRF, and how to prevent them.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://owasp.org/www-project-top-ten/", type: "Free" },
+    { url: "https://www.udemy.com/course/web-application-security-testing/", type: "Paid" }
+  ]
+},
+{
+  title: "Cloud Security",
+  description: "Learn to secure cloud environments like AWS, Azure, and Google Cloud.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://aws.amazon.com/security/", type: "Free" },
+    { url: "https://www.udemy.com/course/aws-certified-security-specialty/", type: "Paid" }
+  ]
+},
+{
+  title: "Digital Forensics",
+  description: "Master techniques for investigating cybercrimes and collecting digital evidence.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.coursera.org/learn/digital-forensics", type: "Free" },
+    { url: "https://www.udemy.com/course/digital-forensics-masterclass/", type: "Paid" }
+  ]
+},
+{
+  title: "Incident Response & Threat Hunting",
+  description: "Learn how to detect, respond to, and mitigate cybersecurity incidents.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.sans.org/cyber-security-courses/incident-response/", type: "Free" },
+    { url: "https://www.udemy.com/course/incident-response-and-threat-hunting-course/", type: "Paid" }
+  ]
 }
+
 
 
 ]
