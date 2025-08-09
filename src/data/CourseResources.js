@@ -644,7 +644,70 @@ const courses = [{
     { url: "https://developer.apple.com/documentation/", type: "Free" },
     { url: "https://www.udemy.com/course/advanced-ios-app-development-with-swift/", type: "Paid" }
   ]
+},{
+  title: "Introduction to Cybersecurity",
+  description: "Understand the fundamentals of cybersecurity, threats, and defenses.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.coursera.org/learn/intro-cyber-security", type: "Free" },
+    { url: "https://www.udemy.com/course/cybersecurity-course/", type: "Paid" }
+  ]
+},
+{
+  title: "Network Security Basics",
+  description: "Learn about firewalls, VPNs, intrusion detection, and securing networks.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.geeksforgeeks.org/network-security/", type: "Free" },
+    { url: "https://www.udemy.com/course/network-security-fundamentals/", type: "Paid" }
+  ]
+},
+{
+  title: "Ethical Hacking for Beginners",
+  description: "Learn ethical hacking tools and penetration testing techniques.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.coursera.org/specializations/penetration-testing", type: "Free" },
+    { url: "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/", type: "Paid" }
+  ]
+},
+{
+  title: "Web Application Security",
+  description: "Understand OWASP Top 10 vulnerabilities and how to secure web apps.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://owasp.org/www-project-top-ten/", type: "Free" },
+    { url: "https://www.udemy.com/course/web-application-security-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "Cloud Security Essentials",
+  description: "Learn to secure cloud-based infrastructure and services.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://aws.amazon.com/security/", type: "Free" },
+    { url: "https://www.udemy.com/course/cloud-security-fundamentals/", type: "Paid" }
+  ]
+},
+{
+  title: "Incident Response and Forensics",
+  description: "Master the process of detecting, responding to, and recovering from attacks.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response", type: "Free" },
+    { url: "https://www.udemy.com/course/computer-forensics-investigations-and-incident-response/", type: "Paid" }
+  ]
+},
+{
+  title: "Advanced Penetration Testing",
+  description: "Deep dive into advanced exploitation techniques and security testing.",
+  category: "Cybersecurity",
+  resources: [
+    { url: "https://www.offsec.com/courses/pen-200/", type: "Paid" },
+    { url: "https://www.sans.org/cyber-security-courses/advanced-penetration-testing-exploits-ethical-hacking/", type: "Paid" }
+  ]
 }
+
 
 
 
