@@ -954,7 +954,69 @@ const courses = [{
     { url: "https://www.gamedev.net/tutorials/programming/artificial-intelligence/", type: "Free" },
     { url: "https://www.udemy.com/course/game-ai-development/", type: "Paid" }
   ]
+},{
+  title: "Introduction to AR & VR",
+  description: "Learn the basics of augmented and virtual reality technologies.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://www.coursera.org/learn/introduction-augmented-reality-virtual-reality", type: "Free" },
+    { url: "https://www.udemy.com/course/augmented-reality-and-virtual-reality/", type: "Paid" }
+  ]
+},
+{
+  title: "Unity for AR & VR",
+  description: "Build immersive AR and VR experiences using Unity engine.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://learn.unity.com/tutorials/ar-vr", type: "Free" },
+    { url: "https://www.udemy.com/course/unity-ar-vr-development/", type: "Paid" }
+  ]
+},
+{
+  title: "Unreal Engine for AR & VR",
+  description: "Create high-quality AR/VR applications with Unreal Engine.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://www.unrealengine.com/en-US/onlinelearning-courses", type: "Free" },
+    { url: "https://www.udemy.com/course/unreal-engine-ar-vr/", type: "Paid" }
+  ]
+},
+{
+  title: "3D Modeling for AR/VR",
+  description: "Learn 3D modeling techniques for creating assets in AR and VR.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://www.blender.org/support/tutorials/", type: "Free" },
+    { url: "https://www.udemy.com/course/3d-modeling-for-beginners/", type: "Paid" }
+  ]
+},
+{
+  title: "XR Interaction Toolkit",
+  description: "Use Unity’s XR Interaction Toolkit to build interactive AR/VR apps.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://learn.unity.com/tutorial/xr-interaction-toolkit", type: "Free" }
+  ]
+},
+{
+  title: "ARKit and ARCore Development",
+  description: "Develop native AR apps using Apple ARKit and Google ARCore.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://developer.apple.com/augmented-reality/", type: "Free" },
+    { url: "https://developers.google.com/ar", type: "Free" }
+  ]
+},
+{
+  title: "VR Game Development",
+  description: "Build engaging VR games with immersive environments.",
+  category: "AR/VR Development",
+  resources: [
+    { url: "https://learn.unity.com/tutorials/vr-game-development", type: "Free" },
+    { url: "https://www.udemy.com/course/vr-game-development/", type: "Paid" }
+  ]
 }
+
 
 
 
