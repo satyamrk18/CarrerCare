@@ -71,13 +71,21 @@
   flex-direction: column;
   justify-content: space-between;
   border-left: 2px solid black;
+  
 }
-.Summary,
-p {
+.Summary{
+  margin-left:15px;
+}
+.summary-container {
   font-size: 13px;
   width: 95%;
-  margin-left: 10px;
+  margin-left:15px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.5;
 }
+
 .projects {
   width: 95%;
   padding: 10px;
@@ -85,6 +93,9 @@ p {
   display:flex;
   flex-direction:column;
   gap:20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .certification-hobbies {
   display: flex;
