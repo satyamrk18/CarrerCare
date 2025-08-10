@@ -1,6 +1,6 @@
 .resume-container {
   width: 100%;
-  height: fit-content;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   margin-top: 25px;
@@ -8,11 +8,12 @@
 
 .resume-form {
   width: 49%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 .actual-resume {
   width: 49%;
-  height: auto;
+  height:max-content;
   display: flex;
   flex-direction: row;
   border: 1px solid black;
@@ -128,16 +129,17 @@ margin-left:10px;
   .resume-container {
     flex-direction: column;
     overflow-y: auto;
+    gap:20px;
   }
-
-  .resume-form {
-    width: 100%;
-    height: 50vh;
+    .resume-form 
+  {
+    width:90%;
+    margin:0 auto;
   }
-
   .actual-resume {
-    width: 100%;
+    width:90%;
     flex-direction: row;
+    margin:0 auto;
   }
 
   .personal-detail {
