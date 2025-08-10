@@ -44,6 +44,12 @@ const resume = () => {
     five: "",
     six: "",
   });
+  const [softSkill, setSoftSkill] = useState({
+    one:"",
+    two:"",
+    three:"",
+    four:"",
+  })
   //personal information
   const [img, setImg] = useState("");
   return (
@@ -272,6 +278,29 @@ const resume = () => {
               }}
             />
           </details>
+          <details>
+            <summary>Soft Skill</summary>
+            <Input 
+            type="text"
+            placeholder="soft skill 1"
+            onChange={(e)=>{setSoftSkill({...softSkill, one:e.target.value})}}
+            />
+             <Input 
+            type="text"
+            placeholder="soft skill 2"
+            onChange={(e)=>{setSoftSkill({...softSkill, two:e.target.value})}}
+            />
+             <Input 
+            type="text"
+            placeholder="soft skill 3"
+            onChange={(e)=>{setSoftSkill({...softSkill, three:e.target.value})}}
+            />
+             <Input 
+            type="text"
+            placeholder="soft skill 4"
+            onChange={(e)=>{setSoftSkill({...softSkill, four:e.target.value})}}
+            />
+          </details>
         </div>
         {/* actual resume */}
         <div className="actual-resume">
@@ -304,10 +333,10 @@ const resume = () => {
             <div className="soft-skill">
               <Heading title="Soft Skill" />
               <ul>
-                <li>communication</li>
-                <li>Leadership</li>
-                <li>Hardworking</li>
-                <li>Time Management</li>
+                <li>{softSkill.one || "communication"}</li>
+                <li>{softSkill.two || "Leadership"}</li>
+                <li>{softSkill.three || "Hardworking"}</li>
+                <li>{softSkill.four || "Time Management"}</li>
               </ul>
             </div>
             <div className="education">
