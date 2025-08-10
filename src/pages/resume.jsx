@@ -36,6 +36,14 @@ const resume = () => {
     Phone: "",
     address: "",
   });
+  const [skill, setSkills] = useState({
+    one: "",
+    two: "",
+    three: "",
+    four: "",
+    five: "",
+    six: "",
+  });
   //personal information
   const [img, setImg] = useState("");
   return (
@@ -130,27 +138,26 @@ const resume = () => {
               />
             </details>
           </details>
-
           {/* certification  */}
           <details>
             <summary>Certification</summary>
             <Input
               type="text"
-              heading="Certification 1"
+              placeholder="cetificate 1"
               onChange={(e) =>
                 setCertification({ ...certification, one: e.target.value })
               }
             />
             <Input
               type="text"
-              heading="Certification 2"
+           placeholder="cetificate 2"
               onChange={(e) =>
                 setCertification({ ...certification, two: e.target.value })
               }
             />
             <Input
               type="text"
-              heading="Certification 3"
+              placeholder="Certification 3"
               onChange={(e) =>
                 setCertification({ ...certification, three: e.target.value })
               }
@@ -161,17 +168,17 @@ const resume = () => {
             <summary>Hobbies</summary>
             <Input
               type="text"
-              heading="Hobbies 1"
+              placeholder="Hobbies 1"
               onChange={(e) => setHobbies({ ...hobbie, one: e.target.value })}
             />
             <Input
               type="text"
-              heading="Hobbies 2"
+              placeholder="Hobbies 2"
               onChange={(e) => setHobbies({ ...hobbie, two: e.target.value })}
             />
             <Input
               type="text"
-              heading="Hobbies 3"
+              placeholder="Hobbies 3"
               onChange={(e) => setHobbies({ ...hobbie, three: e.target.value })}
             />
           </details>
@@ -186,21 +193,85 @@ const resume = () => {
             }}
           />
           {/* contact detail */}
-          <Input 
-          type="text"
-          heading="Email"
-          onChange={(e)=>{setPersonalDetails({...personalDetail, email:e.target.value})}}
-          />
-        <Input 
-        type="number"
-        heading="phone No."
-        onChange={(e)=>{setPersonalDetails({...personalDetail, Phone:e.target.value})}}
-        />
-        <Input 
-        type="text"
-        heading ="Address"
-        onChange={(e)=>{setPersonalDetails({...personalDetail, address:e.target.value})}}
-        />
+          <details>
+            <summary>Contact Details</summary>
+            <Input
+              type="text"
+              heading="Email"
+              onChange={(e) => {
+                setPersonalDetails({
+                  ...personalDetail,
+                  email: e.target.value,
+                });
+              }}
+            />
+            <Input
+              type="number"
+              heading="phone No."
+              onChange={(e) => {
+                setPersonalDetails({
+                  ...personalDetail,
+                  Phone: e.target.value,
+                });
+              }}
+            />
+            <Input
+              type="text"
+              heading="Address"
+              onChange={(e) => {
+                setPersonalDetails({
+                  ...personalDetail,
+                  address: e.target.value,
+                });
+              }}
+            />
+          </details>
+          {/* skilss */}
+          <details>
+            <summary>Skills</summary>
+            <Input
+              type="text"
+              placeholder="skill 1"
+              onChange={(e) => {
+                setSkills({ ...skill, one: e.target.value });
+              }}
+            />
+            <Input
+              type="text"
+              placeholder="skill 2"
+              onChange={(e) => {
+                setSkills({ ...skill, two: e.target.value });
+              }}
+            />
+            <Input
+              type="text"
+              placeholder="skill 3"
+              onChange={(e) => {
+                setSkills({ ...skill, three: e.target.value });
+              }}
+            />
+            <Input
+              type="text"
+              placeholder="skill 4"
+              onChange={(e) => {
+                setSkills({ ...skill, four: e.target.value });
+              }}
+            />
+            <Input
+              type="text"
+              placeholder="skill 5"
+              onChange={(e) => {
+                setSkills({ ...skill, five: e.target.value });
+              }}
+            />
+            <Input
+              type="text"
+              placeholder="skill 6"
+              onChange={(e) => {
+                setSkills({ ...skill, six: e.target.value });
+              }}
+            />
+          </details>
         </div>
         {/* actual resume */}
         <div className="actual-resume">
@@ -213,18 +284,20 @@ const resume = () => {
               <ul>
                 <li>{personalDetail.email || "satyamrk18@gmail.com"}</li>
                 <li>{`+91${personalDetail.Phone || "7588035979"}`}</li>
-                <li>{personalDetail.address || "V.n.p. appt, panchavati nashik"}</li>
+                <li>
+                  {personalDetail.address || "V.n.p. appt, panchavati nashik"}
+                </li>
               </ul>
             </div>
             <div className="skill">
               <Heading title="Skill" />
               <ul>
-                <li>java</li>
-                <li>java</li>
-                <li>java</li>
-                <li>java</li>
-                <li>java</li>
-                <li>java</li>
+                <li>{skill.one || "skill"}</li>
+                 <li>{skill.two || "skill"}</li>
+                 <li>{skill.three || "skill"}</li>
+                 <li>{skill.four || "skill"}</li>
+                 <li>{skill.five || "skill"}</li>
+                 <li>{skill.six || "skill"}</li>
               </ul>
             </div>
             {/* softskill */}
