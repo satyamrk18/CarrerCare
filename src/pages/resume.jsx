@@ -9,6 +9,7 @@ import SocialMedia from "./../components/socialMedia.jsx";
 import ProfilePic from "../components/profilePic.jsx";
 import { useState, useEffect } from "react";
 import Input from "../components/input.jsx";
+import { Phone } from "lucide-react";
 const resume = () => {
   const [name, setName] = useState("");
   const [summary, setSummary] = useState("");
@@ -30,7 +31,11 @@ const resume = () => {
     teo: "",
     three: "",
   });
-
+  const [personalDetail, setPersonalDetails] = useState({
+    email: "",
+    Phone: "",
+    address: "",
+  });
   //personal information
   const [img, setImg] = useState("");
   return (
@@ -46,131 +51,169 @@ const resume = () => {
               setName(e.target.value);
             }}
           />
-          <Input
-            type="text"
-            heading="summary"
-            onChange={(e) => {
-              setSummary(e.target.value);
-            }}
-          />
-          <Heading title="projects" />
-          <Input
-            type="text"
-            heading="1st project name"
-            onChange={(e) => {
-              setPorject1(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="aim"
-            onChange={(e) => {
-              setAim1(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="Impact"
-            onChange={(e) => {
-              setImpact1(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="Text Tag"
-            onChange={(e) => {
-              settextTag1(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="2nd project name"
-            onChange={(e) => {
-              setPorject2(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="aim"
-            onChange={(e) => {
-              setAim2(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="Impact"
-            onChange={(e) => {
-              setImpact2(e.target.value);
-            }}
-          />
-          <Input
-            type="text"
-            heading="text tag"
-            onChange={(e) => {
-              settextTag2(e.target.value);
-            }}
-          />
+          <details>
+            {/* summary */}
+            <summary>Summary</summary>
+            <Input
+              type="text"
+              heading="summary"
+              onChange={(e) => {
+                setSummary(e.target.value);
+              }}
+            />
+          </details>
+          {/* projects */}
+          <details>
+            <summary>Projects</summary>
+            <details>
+              {/* project 1 */}
+              <summary>Project 1</summary>
+              <Input
+                type="text"
+                heading="1st project name"
+                onChange={(e) => {
+                  setPorject1(e.target.value);
+                }}
+              />
+              <Input
+                type="text"
+                heading="aim"
+                onChange={(e) => {
+                  setAim1(e.target.value);
+                }}
+              />
+              <Input
+                type="text"
+                heading="Impact"
+                onChange={(e) => {
+                  setImpact1(e.target.value);
+                }}
+              />
+              <Input
+                type="text"
+                heading="Text Tag"
+                onChange={(e) => {
+                  settextTag1(e.target.value);
+                }}
+              />
+            </details>
+            {/* project 2 */}
+            <details>
+              <summary>project 2</summary>
+              <Input
+                type="text"
+                heading="2nd project name"
+                onChange={(e) => {
+                  setPorject2(e.target.value);
+                }}
+              />
+              <Input
+                type="text"
+                heading="aim"
+                onChange={(e) => {
+                  setAim2(e.target.value);
+                }}
+              />
+              <Input
+                type="text"
+                heading="Impact"
+                onChange={(e) => {
+                  setImpact2(e.target.value);
+                }}
+              />
+              <Input
+                type="text"
+                heading="text tag"
+                onChange={(e) => {
+                  settextTag2(e.target.value);
+                }}
+              />
+            </details>
+          </details>
 
           {/* certification  */}
-          <Input
-            type="text"
-            heading="Certification 1"
-            onChange={(e) =>
-              setCertification({ ...certification, one: e.target.value })
-            }
-          />
-          <Input
-            type="text"
-            heading="Certification 2"
-            onChange={(e) =>
-              setCertification({ ...certification, two: e.target.value })
-            }
-          />
-          <Input
-            type="text"
-            heading="Certification 3"
-            onChange={(e) =>
-              setCertification({ ...certification, three: e.target.value })
-            }
-          />
+          <details>
+            <summary>Certification</summary>
+            <Input
+              type="text"
+              heading="Certification 1"
+              onChange={(e) =>
+                setCertification({ ...certification, one: e.target.value })
+              }
+            />
+            <Input
+              type="text"
+              heading="Certification 2"
+              onChange={(e) =>
+                setCertification({ ...certification, two: e.target.value })
+              }
+            />
+            <Input
+              type="text"
+              heading="Certification 3"
+              onChange={(e) =>
+                setCertification({ ...certification, three: e.target.value })
+              }
+            />
+          </details>
           {/* hobbies */}
-          <Input
-            type="text"
-            heading="Hobbies 1"
-            onChange={(e) => setHobbies({ ...hobbie, one: e.target.value })}
-          />
-          <Input
-            type="text"
-            heading="Hobbies 2"
-            onChange={(e) => setHobbies({ ...hobbie, two: e.target.value })}
-          />
-          <Input
-            type="text"
-            heading="Hobbies 3"
-            onChange={(e) => setHobbies({ ...hobbie, three: e.target.value })}
-          />
+          <details>
+            <summary>Hobbies</summary>
+            <Input
+              type="text"
+              heading="Hobbies 1"
+              onChange={(e) => setHobbies({ ...hobbie, one: e.target.value })}
+            />
+            <Input
+              type="text"
+              heading="Hobbies 2"
+              onChange={(e) => setHobbies({ ...hobbie, two: e.target.value })}
+            />
+            <Input
+              type="text"
+              heading="Hobbies 3"
+              onChange={(e) => setHobbies({ ...hobbie, three: e.target.value })}
+            />
+          </details>
 
-          {/* personal imformation */}
+          {/* personal information */}
+          {/* progile image */}
           <Input
-            type="profile pic"
+            type="text"
             heading="Profile picture"
             onChange={(e) => {
               setImg(e.target.value);
             }}
           />
+          {/* contact detail */}
+          <Input 
+          type="text"
+          heading="Email"
+          onChange={(e)=>{setPersonalDetails({...personalDetail, email:e.target.value})}}
+          />
+        <Input 
+        type="number"
+        heading="phone No."
+        onChange={(e)=>{setPersonalDetails({...personalDetail, Phone:e.target.value})}}
+        />
+        <Input 
+        type="text"
+        heading ="Address"
+        onChange={(e)=>{setPersonalDetails({...personalDetail, address:e.target.value})}}
+        />
         </div>
         {/* actual resume */}
         <div className="actual-resume">
           {/* personal detail from resume */}
           <div className="personal-detail">
             {/* profile picture */}
-            <ProfilePic profilepic={img}/>
+            <ProfilePic profilepic={img} />
             <div className="contact-detail">
               <Heading title="Personal Detail" />
               <ul>
-                <li>satyamrk18@gmail.com</li>
-                <li>+91 7588035979</li>
-                <li>V.n.p. appt, panchavati nashik</li>
+                <li>{personalDetail.email || "satyamrk18@gmail.com"}</li>
+                <li>{`+91${personalDetail.Phone || "7588035979"}`}</li>
+                <li>{personalDetail.address || "V.n.p. appt, panchavati nashik"}</li>
               </ul>
             </div>
             <div className="skill">
