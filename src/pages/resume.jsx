@@ -11,6 +11,7 @@ import Input from "../components/input.jsx";
 
 const resume = () => {
   const [name, setName] = useState("");
+  const [img, setImg] = useState("");
   const [summary, setSummary] = useState("");
   const [project1, setPorject1] = useState("");
   const [project2, setPorject2] = useState("");
@@ -27,7 +28,7 @@ const resume = () => {
   });
   const [hobbie, setHobbies] = useState({
     one: "",
-    teo: "",
+    two: "",
     three: "",
   });
   const [personalDetail, setPersonalDetails] = useState({
@@ -53,8 +54,16 @@ const resume = () => {
     firstEdu: [{ college: "", degree: "", percentage: 0 }],
     secondEdu: [{ college: "", degree: "", percentage: 0 }],
   });
-  //personal information
-  const [img, setImg] = useState("");
+  const [socialMedia, setSocialMedia] = useState({
+    one: "",
+    two: "",
+    three: "",
+  });
+  const [socialTitle, setSocialTitle] = useState({
+    title1: "",
+    title2: "",
+    title3: "",
+  });
   return (
     <div>
       <Navbar />
@@ -66,6 +75,14 @@ const resume = () => {
             heading="Name"
             onChange={(e) => {
               setName(e.target.value);
+            }}
+          />
+          {/* progile image */}
+          <Input
+            type="text"
+            heading="Profile picture"
+            onChange={(e) => {
+              setImg(e.target.value);
             }}
           />
           <details>
@@ -193,14 +210,6 @@ const resume = () => {
           </details>
 
           {/* personal information */}
-          {/* progile image */}
-          <Input
-            type="text"
-            heading="Profile picture"
-            onChange={(e) => {
-              setImg(e.target.value);
-            }}
-          />
           {/* contact detail */}
           <details>
             <summary>Contact Details</summary>
@@ -317,69 +326,147 @@ const resume = () => {
             <summary>Education</summary>
             <details>
               <summary>First Education (Higher Education)</summary>
-              <Input 
-                type="text" 
-                placeholder="College/Institute Name" 
+              <Input
+                type="text"
+                placeholder="College/Institute Name"
                 onChange={(e) => {
                   setEducation({
                     ...education,
-                    firstEdu: [{ ...education.firstEdu[0], college: e.target.value }]
+                    firstEdu: [
+                      { ...education.firstEdu[0], college: e.target.value },
+                    ],
                   });
                 }}
               />
-              <Input 
-                type="text" 
-                placeholder="Degree/Course" 
+              <Input
+                type="text"
+                placeholder="Degree/Course"
                 onChange={(e) => {
                   setEducation({
                     ...education,
-                    firstEdu: [{ ...education.firstEdu[0], degree: e.target.value }]
+                    firstEdu: [
+                      { ...education.firstEdu[0], degree: e.target.value },
+                    ],
                   });
                 }}
               />
-              <Input 
-                type="number" 
-                placeholder="Percentage/GPA" 
+              <Input
+                type="number"
+                placeholder="Percentage/GPA"
                 onChange={(e) => {
                   setEducation({
                     ...education,
-                    firstEdu: [{ ...education.firstEdu[0], percentage: parseFloat(e.target.value) || 0 }]
+                    firstEdu: [
+                      {
+                        ...education.firstEdu[0],
+                        percentage: parseFloat(e.target.value) || 0,
+                      },
+                    ],
                   });
                 }}
               />
             </details>
             <details>
               <summary>Second Education (Secondary Education)</summary>
-              <Input 
-                type="text" 
-                placeholder="School/College Name" 
+              <Input
+                type="text"
+                placeholder="School/College Name"
                 onChange={(e) => {
                   setEducation({
                     ...education,
-                    secondEdu: [{ ...education.secondEdu[0], college: e.target.value }]
+                    secondEdu: [
+                      { ...education.secondEdu[0], college: e.target.value },
+                    ],
                   });
                 }}
               />
-              <Input 
-                type="text" 
-                placeholder="Degree/Course" 
+              <Input
+                type="text"
+                placeholder="Degree/Course"
                 onChange={(e) => {
                   setEducation({
                     ...education,
-                    secondEdu: [{ ...education.secondEdu[0], degree: e.target.value }]
+                    secondEdu: [
+                      { ...education.secondEdu[0], degree: e.target.value },
+                    ],
                   });
                 }}
               />
-              <Input 
-                type="number" 
-                placeholder="Percentage/GPA" 
+              <Input
+                type="number"
+                placeholder="Percentage/GPA"
                 onChange={(e) => {
                   setEducation({
                     ...education,
-                    secondEdu: [{ ...education.secondEdu[0], percentage: parseFloat(e.target.value) || 0 }]
+                    secondEdu: [
+                      {
+                        ...education.secondEdu[0],
+                        percentage: parseFloat(e.target.value) || 0,
+                      },
+                    ],
                   });
                 }}
               />
+            </details>
+          </details>
+          <details>
+            <summary>Social Media</summary>
+            <details>
+              <summary>social media 1</summary>
+              <div style={{ border: "2px solid black" }}>
+                <Input
+                  type="text"
+                  placeholder="socila media title"
+                  onChange={(e) => {
+                    setSocialTitle({ ...socialTitle, title1: e.target.value });
+                  }}
+                />
+                <Input
+                  type="text"
+                  placeholder={`${socialTitle.title1} link`}
+                  onChange={(e) => {
+                    setSocialMedia({ ...socialMedia, one: e.target.value });
+                  }}
+                />
+              </div>
+            </details>
+            <details>
+              <summary>social media 2</summary>
+              <div style={{ border: "2px solid red" }}>
+                <Input
+                  type="text"
+                  placeholder="socila media title"
+                  onChange={(e) => {
+                    setSocialTitle({ ...socialTitle, title2: e.target.value });
+                  }}
+                />
+                <Input
+                  type="text"
+                  placeholder={`${socialTitle.title2} link`}
+                  onChange={(e) => {
+                    setSocialMedia({ ...socialMedia, two: e.target.value });
+                  }}
+                />
+              </div>
+            </details>
+            <details>
+              <summary>social media 3</summary>
+              <div style={{ border: "2px solid blue" }}>
+                <Input
+                  type="text"
+                  placeholder="socila media title"
+                  onChange={(e) => {
+                    setSocialTitle({ ...socialTitle, title3: e.target.value });
+                  }}
+                />
+                <Input
+                  type="text"
+                  placeholder={`${socialTitle.title2} link`}
+                  onChange={(e) => {
+                    setSocialMedia({ ...socialMedia, three: e.target.value });
+                  }}
+                />
+              </div>
             </details>
           </details>
         </div>
@@ -428,7 +515,7 @@ const resume = () => {
                 percentage={education?.firstEdu?.[0]?.percentage || 90}
               />
               <Education
-                  education={education?.secondEdu?.[0]?.college || "SVIT"}
+                education={education?.secondEdu?.[0]?.college || "SVIT"}
                 college={education?.secondEdu?.[0]?.degree || "B.E. [IT]]"}
                 percentage={education?.secondEdu?.[0]?.percentage || 90}
               />
@@ -437,16 +524,16 @@ const resume = () => {
             <div className="social-media-links">
               <Heading title="social handles" />
               <SocialMedia
-                title="Linked in"
-                link="http://localhost:5173/resume"
+                title={socialTitle.title1 || "Linked in"}
+                link={socialMedia.one}
               />
               <SocialMedia
-                title="peerlist"
-                link="http://localhost:5173/resume"
+                title={socialTitle.title2 || "GitHub"}
+                link={socialMedia.two}
               />
               <SocialMedia
-                title="git hub"
-                link="http://localhost:5173/resume"
+                title={socialTitle.title3 || "Peerlist"}
+                link={socialMedia.three}
               />
             </div>
           </div>
