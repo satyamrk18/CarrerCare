@@ -32,7 +32,7 @@ const resume = () => {
   })
   return (
     <div>
-      <Navbar />
+       <Navbar /> 
       <div className="resume-container">
         {/* resume form */}
         <div className="resume-form">
