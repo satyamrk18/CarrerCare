@@ -1,4 +1,3 @@
-import react, { use } from "react";
 import "./resume.css";
 import Navbar from "./../components/navbar.jsx";
 import Heading from "../components/heading.jsx";
@@ -9,7 +8,7 @@ import SocialMedia from "./../components/socialMedia.jsx";
 import ProfilePic from "../components/profilePic.jsx";
 import { useState, useEffect } from "react";
 import Input from "../components/input.jsx";
-import { Phone } from "lucide-react";
+
 const resume = () => {
   const [name, setName] = useState("");
   const [summary, setSummary] = useState("");
@@ -45,11 +44,15 @@ const resume = () => {
     six: "",
   });
   const [softSkill, setSoftSkill] = useState({
-    one:"",
-    two:"",
-    three:"",
-    four:"",
-  })
+    one: "",
+    two: "",
+    three: "",
+    four: "",
+  });
+  const [education, setEducation] = useState({
+    firstEdu: [{ college: "", degree: "", percentage: 0 }],
+    secondEdu: [{ college: "", degree: "", percentage: 0 }],
+  });
   //personal information
   const [img, setImg] = useState("");
   return (
@@ -156,7 +159,7 @@ const resume = () => {
             />
             <Input
               type="text"
-           placeholder="cetificate 2"
+              placeholder="cetificate 2"
               onChange={(e) =>
                 setCertification({ ...certification, two: e.target.value })
               }
@@ -280,26 +283,104 @@ const resume = () => {
           </details>
           <details>
             <summary>Soft Skill</summary>
-            <Input 
-            type="text"
-            placeholder="soft skill 1"
-            onChange={(e)=>{setSoftSkill({...softSkill, one:e.target.value})}}
+            <Input
+              type="text"
+              placeholder="soft skill 1"
+              onChange={(e) => {
+                setSoftSkill({ ...softSkill, one: e.target.value });
+              }}
             />
-             <Input 
-            type="text"
-            placeholder="soft skill 2"
-            onChange={(e)=>{setSoftSkill({...softSkill, two:e.target.value})}}
+            <Input
+              type="text"
+              placeholder="soft skill 2"
+              onChange={(e) => {
+                setSoftSkill({ ...softSkill, two: e.target.value });
+              }}
             />
-             <Input 
-            type="text"
-            placeholder="soft skill 3"
-            onChange={(e)=>{setSoftSkill({...softSkill, three:e.target.value})}}
+            <Input
+              type="text"
+              placeholder="soft skill 3"
+              onChange={(e) => {
+                setSoftSkill({ ...softSkill, three: e.target.value });
+              }}
             />
-             <Input 
-            type="text"
-            placeholder="soft skill 4"
-            onChange={(e)=>{setSoftSkill({...softSkill, four:e.target.value})}}
+            <Input
+              type="text"
+              placeholder="soft skill 4"
+              onChange={(e) => {
+                setSoftSkill({ ...softSkill, four: e.target.value });
+              }}
             />
+          </details>
+          {/* Education */}
+          <details>
+            <summary>Education</summary>
+            <details>
+              <summary>First Education (Higher Education)</summary>
+              <Input 
+                type="text" 
+                placeholder="College/Institute Name" 
+                onChange={(e) => {
+                  setEducation({
+                    ...education,
+                    firstEdu: [{ ...education.firstEdu[0], college: e.target.value }]
+                  });
+                }}
+              />
+              <Input 
+                type="text" 
+                placeholder="Degree/Course" 
+                onChange={(e) => {
+                  setEducation({
+                    ...education,
+                    firstEdu: [{ ...education.firstEdu[0], degree: e.target.value }]
+                  });
+                }}
+              />
+              <Input 
+                type="number" 
+                placeholder="Percentage/GPA" 
+                onChange={(e) => {
+                  setEducation({
+                    ...education,
+                    firstEdu: [{ ...education.firstEdu[0], percentage: parseFloat(e.target.value) || 0 }]
+                  });
+                }}
+              />
+            </details>
+            <details>
+              <summary>Second Education (Secondary Education)</summary>
+              <Input 
+                type="text" 
+                placeholder="School/College Name" 
+                onChange={(e) => {
+                  setEducation({
+                    ...education,
+                    secondEdu: [{ ...education.secondEdu[0], college: e.target.value }]
+                  });
+                }}
+              />
+              <Input 
+                type="text" 
+                placeholder="Degree/Course" 
+                onChange={(e) => {
+                  setEducation({
+                    ...education,
+                    secondEdu: [{ ...education.secondEdu[0], degree: e.target.value }]
+                  });
+                }}
+              />
+              <Input 
+                type="number" 
+                placeholder="Percentage/GPA" 
+                onChange={(e) => {
+                  setEducation({
+                    ...education,
+                    secondEdu: [{ ...education.secondEdu[0], percentage: parseFloat(e.target.value) || 0 }]
+                  });
+                }}
+              />
+            </details>
           </details>
         </div>
         {/* actual resume */}
@@ -322,11 +403,11 @@ const resume = () => {
               <Heading title="Skill" />
               <ul>
                 <li>{skill.one || "skill"}</li>
-                 <li>{skill.two || "skill"}</li>
-                 <li>{skill.three || "skill"}</li>
-                 <li>{skill.four || "skill"}</li>
-                 <li>{skill.five || "skill"}</li>
-                 <li>{skill.six || "skill"}</li>
+                <li>{skill.two || "skill"}</li>
+                <li>{skill.three || "skill"}</li>
+                <li>{skill.four || "skill"}</li>
+                <li>{skill.five || "skill"}</li>
+                <li>{skill.six || "skill"}</li>
               </ul>
             </div>
             {/* softskill */}
@@ -342,14 +423,14 @@ const resume = () => {
             <div className="education">
               <Heading title="Education" />
               <Education
-                education="Bachelors of engineering"
-                college="SVIT"
-                percentage={90}
+                education={education?.firstEdu?.[0]?.college || "SVIT"}
+                college={education?.firstEdu?.[0]?.degree || "B.E. [IT]]"}
+                percentage={education?.firstEdu?.[0]?.percentage || 90}
               />
               <Education
-                education="HSC"
-                college="VN naik nashik"
-                percentage={90}
+                  education={education?.secondEdu?.[0]?.college || "SVIT"}
+                college={education?.secondEdu?.[0]?.degree || "B.E. [IT]]"}
+                percentage={education?.secondEdu?.[0]?.percentage || 90}
               />
             </div>
             {/* social media linkes */}
