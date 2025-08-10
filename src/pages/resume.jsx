@@ -27,12 +27,15 @@ const resume = () => {
   });
   const [hobbie, setHobbies] = useState({
     one: "",
-    teo:"",
-    three:"",
-  })
+    teo: "",
+    three: "",
+  });
+
+  //personal information
+  const [img, setImg] = useState("");
   return (
     <div>
-       <Navbar /> 
+      <Navbar />
       <div className="resume-container">
         {/* resume form */}
         <div className="resume-form">
@@ -131,20 +134,29 @@ const resume = () => {
             }
           />
           {/* hobbies */}
-          <Input 
-          type="text"
-          heading="Hobbies 1"
-          onChange={(e)=>setHobbies({...hobbie,one:e.target.value})}
+          <Input
+            type="text"
+            heading="Hobbies 1"
+            onChange={(e) => setHobbies({ ...hobbie, one: e.target.value })}
           />
-           <Input 
-          type="text"
-          heading="Hobbies 2"
-          onChange={(e)=>setHobbies({...hobbie,two:e.target.value})}
+          <Input
+            type="text"
+            heading="Hobbies 2"
+            onChange={(e) => setHobbies({ ...hobbie, two: e.target.value })}
           />
-           <Input 
-          type="text"
-          heading="Hobbies 3"
-          onChange={(e)=>setHobbies({...hobbie,three:e.target.value})}
+          <Input
+            type="text"
+            heading="Hobbies 3"
+            onChange={(e) => setHobbies({ ...hobbie, three: e.target.value })}
+          />
+
+          {/* personal imformation */}
+          <Input
+            type="profile pic"
+            heading="Profile picture"
+            onChange={(e) => {
+              setImg(e.target.value);
+            }}
           />
         </div>
         {/* actual resume */}
@@ -152,7 +164,7 @@ const resume = () => {
           {/* personal detail from resume */}
           <div className="personal-detail">
             {/* profile picture */}
-            <ProfilePic profilepic="" />
+            <ProfilePic profilepic={img}/>
             <div className="contact-detail">
               <Heading title="Personal Detail" />
               <ul>
@@ -215,7 +227,7 @@ const resume = () => {
 
           {/* main detail */}
           <div className="main-detail">
-            <Heading title={name || `satyam katkade`}/>
+            <Heading title={name || `satyam katkade`} />
             {/* summary */}
             <div className="Summary">
               <Heading title="Summary" />
