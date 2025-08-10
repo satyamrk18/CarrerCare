@@ -215,11 +215,11 @@ const resume = () => {
 
           {/* main detail */}
           <div className="main-detail">
-            <Heading title={name || `satyam katkade`} />
+            <Heading title={name || `satyam katkade`}/>
             {/* summary */}
             <div className="Summary">
               <Heading title="Summary" />
-              <p>
+              <p className="summary-container">
                 {summary ||
                   ` Temporibus iste itaque, ab culpa velit iure
               sapiente ipsum officia quam nobis accusantium enim tenetur tempora
