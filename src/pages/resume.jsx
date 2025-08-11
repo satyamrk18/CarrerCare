@@ -91,7 +91,8 @@ const resume = () => {
               setImg(e.target.value);
             }}
           />
-          <details>
+         <div className="form-group">
+           <details>
             {/* summary */}
             <summary>Summary</summary>
             <Input
@@ -443,7 +444,7 @@ const resume = () => {
             <summary>Social Media</summary>
             <details>
               <summary>social media 1</summary>
-              <div style={{ border: "2px solid black" }}>
+              <div>
                 <Input
                   type="text"
                   placeholder="socila media title"
@@ -462,7 +463,7 @@ const resume = () => {
             </details>
             <details>
               <summary>social media 2</summary>
-              <div style={{ border: "2px solid red" }}>
+              <div>
                 <Input
                   type="text"
                   placeholder="socila media title"
@@ -481,7 +482,7 @@ const resume = () => {
             </details>
             <details>
               <summary>social media 3</summary>
-              <div style={{ border: "2px solid blue" }}>
+              <div>
                 <Input
                   type="text"
                   placeholder="socila media title"
@@ -499,6 +500,7 @@ const resume = () => {
               </div>
             </details>
           </details>
+         </div>
         </div>
         {/* actual resume */}
         <div className="actual-resume">
