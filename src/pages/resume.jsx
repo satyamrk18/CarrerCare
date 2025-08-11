@@ -64,6 +64,12 @@ const resume = () => {
     title2: "",
     title3: "",
   });
+  const [experience, setExperience] = useState({
+    company: "",
+    work: "",
+    startingDate: "",
+    endingDate: "",
+  });
   return (
     <div>
       <Navbar />
@@ -163,6 +169,30 @@ const resume = () => {
                 }}
               />
             </details>
+          </details>
+          {/* Expericence */}
+          <details>
+            <summary>Expericence</summary>
+            <Input
+              type="text"
+              placeholder="Company Name"
+              onChange={(e) => {
+                setExperience({ ...experience, company: e.target.value });
+              }}
+            />
+            <Input
+              type="text"
+              placeholder="share experience"
+              onChange={(e) => {
+                setExperience({ ...experience, work: e.target.value });
+              }}
+            />
+            <Input type="date" placeholder="staring date"  onChange={(e) => {
+                setExperience({ ...experience, startingDate: e.target.value });
+              }}/>
+                <Input type="date" placeholder="Ending date"  onChange={(e) => {
+                setExperience({ ...experience, endingDate: e.target.value });
+              }}/>
           </details>
           {/* certification  */}
           <details>
@@ -602,7 +632,23 @@ const resume = () => {
                 }
               />
             </div>
-
+            <div className="experience">
+              <Heading title="Experience" />
+             <div className="work-experience-dates">
+               <p className="work-experience comapnyName">{experience.company || `svit`}</p>
+             <div className="starting-ending-date">
+              <p>{experience.startingDate || "xx-xx-20xx"}</p>
+            <p>{experience.endingDate || "xx-xx-20xx"}</p>
+             </div>
+               
+             </div>
+              <p className="work-experience">
+                {experience.work ||
+                  `Temporibus iste itaque, ab culpa velit iure
+              sapiente ipsum officia quam nobis accusantium enim tenetur tempora
+              sequi dolores quos minima natus aspernatur`}
+              </p>
+            </div>
             {/* certification */}
             <div className="certification-hobbies">
               <Certification
