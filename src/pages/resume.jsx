@@ -6,7 +6,8 @@ import Certification from "../components/certification.jsx";
 import Education from "./../components/education.jsx";
 import SocialMedia from "./../components/socialMedia.jsx";
 import ProfilePic from "../components/profilePic.jsx";
-import { useState, useEffect } from "react";
+import DownloadBtn from "../components/DownloadResume.jsx"
+import { useState, useEffect,useRef } from "react";
 import Input from "../components/input.jsx";
 
 const resume = () => {
@@ -70,13 +71,18 @@ const resume = () => {
     startingDate: "",
     endingDate: "",
   });
+  // downloading the resume
+    const captureRef = useRef(null);
   return (
     <div>
       <Navbar />
       <div className="resume-container">
         {/* resume form */}
         <div className="resume-form">
-          <Input
+         <div className="form-group">
+          <details>
+            <summary>Personal Detials</summary>
+            <Input
             type="text"
             heading="Name"
             onChange={(e) => {
@@ -91,7 +97,7 @@ const resume = () => {
               setImg(e.target.value);
             }}
           />
-         <div className="form-group">
+          </details>
            <details>
             {/* summary */}
             <summary>Summary</summary>
@@ -500,10 +506,12 @@ const resume = () => {
               </div>
             </details>
           </details>
+           <DownloadBtn targetRef={captureRef} />
          </div>
         </div>
         {/* actual resume */}
-        <div className="actual-resume">
+        <div className="actual-resume" ref={captureRef}>
+           
           {/* personal detail from resume */}
           <div className="personal-detail">
             {/* profile picture */}
