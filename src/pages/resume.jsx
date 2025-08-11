@@ -7,6 +7,7 @@ import Education from "./../components/education.jsx";
 import SocialMedia from "./../components/socialMedia.jsx";
 import ProfilePic from "../components/profilePic.jsx";
 import DownloadBtn from "../components/DownloadResume.jsx"
+import Reset from "../components/resetbtn.jsx"
 import { useState, useEffect,useRef } from "react";
 import Input from "../components/input.jsx";
 
@@ -506,7 +507,10 @@ const resume = () => {
               </div>
             </details>
           </details>
+<div className="buttons">
+            <Reset btn="Reset"/>
            <DownloadBtn targetRef={captureRef} />
+</div>
          </div>
         </div>
         {/* actual resume */}
