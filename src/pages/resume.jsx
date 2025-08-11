@@ -81,6 +81,7 @@ const resume = () => {
         {/* resume form */}
         <div className="resume-form">
          <div className="form-group">
+          <Heading title="Resume Form"/>
           <details>
             <summary>Personal Detials</summary>
             <Input
