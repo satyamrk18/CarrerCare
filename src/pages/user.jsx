@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Navbar from "./../components/navbar.jsx"
 import {Link} from "react-router-dom"
+import "./user.css"
 const user = () => {
  
 const [user,setUser] = useState("")
@@ -15,7 +16,7 @@ useEffect(()=>
 const {name} = user;
 
   return (
-    <div>
+    <div className='user-container'>
         <Navbar />
       <h1>hi, {user.name}</h1>
       <Link to="/contact">Contact</Link> 
