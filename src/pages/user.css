@@ -1,7 +1,6 @@
 .user-container{
     height:100vh;
     width:100%;
-    background:tomato;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -17,7 +16,22 @@
 }
 .userImage
 {
-    height:auto;
+    height:200px;
     width:200px;
-    border:2px solid black  ;
+    border:2px solid black ;
+    margin-bottom:100px;
+    border-radius:50%;
+    background-position:center;
+    background-size:contain;
+}
+.upladImg
+{
+  border:2px solid black;
+  height:fit-content;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.upladImg input{
+    border:none;
 }
