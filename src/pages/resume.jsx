@@ -93,10 +93,13 @@ const resume = () => {
           />
           {/* progile image */}
           <Input
-            type="text"
+            type="file"
             heading="Profile picture"
+            placeholder="upload the image"
             onChange={(e) => {
-              setImg(e.target.value);
+              const file = e.target.files[0];
+              if(file)
+                setImg(URL.createObjectURL(file))
             }}
           />
           </details>
