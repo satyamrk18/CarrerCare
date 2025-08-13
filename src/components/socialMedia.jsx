@@ -1,4 +1,3 @@
-import "./socialMedia.css";
 const SocialMedia = ({title, link}) => {
   return (
     <div>
