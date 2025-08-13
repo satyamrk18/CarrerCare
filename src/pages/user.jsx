@@ -60,6 +60,7 @@ const User = () => {
             <Button name="Resume" />
           </Link>
         </div>
+      <button className="log-out" type="button">Log Out</button>
       </div>
     </div>
   );
