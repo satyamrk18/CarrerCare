@@ -1,4 +1,4 @@
-import "./certification.css";
+
 import Heading from "./heading.jsx";
 const Certification = ({title,one,two,three}) => {
   return (
