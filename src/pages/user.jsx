@@ -8,11 +8,11 @@ import DefaultUser from "../assets/img/user.png";
 import { ImageUp } from "lucide-react";
 
 const User = () => {
-  const [user, setUser] = useState("");
+  const [user, setUser] = useState({});
   const [userImg, setUserImg] = useState("");
   //retriving the data if exist
   useEffect(() => {
-    const data = JSON.parse(localStorage.getItem("userdata") || "null");
+    const data = JSON.parse(localStorage.getItem("userdata"));
     setUser(data);
 
     const storedImg = localStorage.getItem("userImage");
@@ -20,8 +20,14 @@ const User = () => {
       setUserImg(storedImg);
     }
   }, []);
+const handleLOgOUt = ()=>
+{
+ localStorage.removeItem("userdata");
+ localStorage.removeItem("userImage");
+window.location.replace("/");
 
-  const { name } = user;
+}
+  const { name } = user || {};
 
   return (
     <div>
@@ -60,7 +66,7 @@ const User = () => {
             <Button name="Resume" />
           </Link>
         </div>
-      <button className="log-out" type="button">Log Out</button>
+      <button className="log-out" type="button" onClick={handleLOgOUt}>Log Out</button>
       </div>
     </div>
   );
