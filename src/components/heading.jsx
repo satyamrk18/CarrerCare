@@ -1,11 +1,12 @@
-import "./heading.css"
-const heading = ({title, stitle})=>
-{
-return (
-<div>
-<p className="personal-detail-heading">{title}</p>
-<p className="personal-detail-heading-s">{stitle}</p>
-</div>
-);
-}
-export default heading;
+const Heading = ({ title, stitle }) => {
+  return (
+    <div>
+      <p className="text-[25px] font-semibold text-purple-900 ml-[10px] max-[900px]:text-[20px]">
+        {title}
+      </p>
+      <p className="text-[20px] text-purple-900">{stitle}</p>
+    </div>
+  );
+};
+
+export default Heading;

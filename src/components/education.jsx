@@ -1,4 +1,3 @@
-import "./education.css"
 const Education = ({education,college,percentage})=>
 {
   return (
