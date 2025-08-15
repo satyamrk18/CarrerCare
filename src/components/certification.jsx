@@ -5,9 +5,9 @@ const Certification = ({title,one,two,three}) => {
     <div>
       <Heading title={title} />
       <ul>
-        <li>{one}</li>
-        <li>{two}</li>
-        <li>{three}</li>
+        <li className="list-disc">{one}</li>
+        <li className="list-disc">{two}</li>
+        <li className="list-disc">{three}</li>
       </ul>
     </div>
   );

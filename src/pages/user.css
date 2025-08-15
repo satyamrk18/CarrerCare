@@ -53,7 +53,7 @@
   border-radius:10px;
   font-weight:600;
   cursor:pointer;
-  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.489);
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.242);
   transition: all 0.3s;
 }
 .log-out:hover{
